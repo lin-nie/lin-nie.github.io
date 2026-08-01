@@ -38,6 +38,13 @@ const en: SiteContent = {
       phone: '+81 080-5637-8886 (Japan)',
       web: 'lin-nie.github.io',
     },
+    affiliations: [
+      { name: 'The University of Tokyo', role: "M.S. '23–'25, Ph.D. '25–", initials: 'UT' },
+      { name: 'Microsoft Research Asia', role: "Research Intern '24–'25", initials: 'MS' },
+      { name: 'Sony R&D', role: "Summer AI Intern '23", initials: 'SNY' },
+      { name: 'Hunan University', role: "Research Assistant '21–'22", initials: 'HNU' },
+      { name: 'University of Toronto', role: "Project Student '19", initials: 'UofT' },
+    ],
   },
   newsTitle: 'News',
   navNews: 'News',

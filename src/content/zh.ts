@@ -30,6 +30,13 @@ const zh: SiteContent = {
       phone: '+81 080-5637-8886（日本）',
       web: 'lin-nie.github.io',
     },
+    affiliations: [
+      { name: '东京大学', role: '硕士 2023–2025，博士 2025–至今', initials: 'UT' },
+      { name: '微软亚洲研究院', role: '研究实习 2024–2025', initials: 'MS' },
+      { name: '索尼 R&D', role: '暑期 AI 实习 2023', initials: 'SNY' },
+      { name: '湖南大学', role: '助理研究员 2021–2022', initials: 'HNU' },
+      { name: '多伦多大学', role: '项目学生 2019', initials: 'UofT' },
+    ],
   },
   newsTitle: '消息',
   navNews: '消息',

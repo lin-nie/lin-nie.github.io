@@ -44,6 +44,14 @@ const { content } = useLocale()
         <p class="profile__caption">{{ content.profile.photoCaption }}</p>
       </div>
     </div>
+
+    <div class="profile__affiliations">
+      <div v-for="a in content.profile.affiliations" :key="a.name" class="profile__affiliation-item">
+        <div class="profile__affiliation-badge">{{ a.initials }}</div>
+        <span class="profile__affiliation-name">{{ a.name }}</span>
+        <span class="profile__affiliation-role">{{ a.role }}</span>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -67,7 +75,7 @@ const { content } = useLocale()
 
 .profile__photo-wrap {
   flex-shrink: 0;
-  width: 17rem;
+  width: 21rem;
 }
 
 .profile__photo {
@@ -135,13 +143,55 @@ const { content } = useLocale()
   margin: 0;
 }
 
+.profile__affiliations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4) var(--space-3);
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
+}
+
+.profile__affiliation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 6.5rem;
+}
+
+.profile__affiliation-badge {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.profile__affiliation-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.profile__affiliation-role {
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  margin-top: 0.15rem;
+}
+
 @media (max-width: 42rem) {
   .profile__layout {
     flex-direction: column-reverse;
   }
 
   .profile__photo-wrap {
-    width: 11rem;
+    width: 13rem;
   }
 
   .profile__contact {

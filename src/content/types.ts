@@ -1,3 +1,9 @@
+export interface AffiliationItem {
+  name: string
+  role: string
+  initials: string
+}
+
 export interface ProfileContent {
   name: string
   degree: string
@@ -11,6 +17,7 @@ export interface ProfileContent {
     phone: string
     web: string
   }
+  affiliations: AffiliationItem[]
 }
 
 export interface NewsItem {
