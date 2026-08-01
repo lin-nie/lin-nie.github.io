@@ -6,7 +6,7 @@ const zh: SiteContent = {
   profile: {
     name: '林 涅',
     degree: '博士 (D1)',
-    photoCaption: '拍摄于 2023 年 10 月，日本，东京',
+    photoCaption: '拍摄于 2025 年 11 月，美国，夏威夷',
     affiliation: ['交叉信息学 [尖端表现信息学课程]', '跨学科交叉信息学院', '东京大学'],
     bio: `你好，我是<a href="https://www.u-tokyo.ac.jp/zh/index.html" target="_blank" rel="noopener">东京大学</a>
       跨学科交叉信息学博士一年级的研究生，在

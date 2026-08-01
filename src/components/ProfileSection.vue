@@ -7,40 +7,43 @@ const { content } = useLocale()
 
 <template>
   <section class="profile">
-    <div class="profile__top">
-      <img class="profile__photo" :src="profilePhoto" :alt="content.profile.name" />
-      <div class="profile__heading">
+    <div class="profile__layout">
+      <div class="profile__main">
         <h1 class="profile__name">{{ content.profile.name }}</h1>
         <p class="profile__degree">{{ content.profile.degree }}</p>
         <p v-for="line in content.profile.affiliation" :key="line" class="profile__affiliation">
           {{ line }}
         </p>
+
+        <p class="profile__bio" v-html="content.profile.bio"></p>
+
+        <p class="profile__highlight">{{ content.profile.highlight }}</p>
+
+        <dl class="profile__contact">
+          <div class="profile__contact-row">
+            <dt>Address</dt>
+            <dd>{{ content.profile.contact.address }}</dd>
+          </div>
+          <div class="profile__contact-row">
+            <dt>Email</dt>
+            <dd><a :href="`mailto:${content.profile.contact.email}`">{{ content.profile.contact.email }}</a></dd>
+          </div>
+          <div class="profile__contact-row">
+            <dt>Phone</dt>
+            <dd>{{ content.profile.contact.phone }}</dd>
+          </div>
+          <div class="profile__contact-row">
+            <dt>Web</dt>
+            <dd><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">{{ content.profile.contact.web }}</a></dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="profile__photo-wrap">
+        <img class="profile__photo" :src="profilePhoto" :alt="content.profile.name" />
         <p class="profile__caption">{{ content.profile.photoCaption }}</p>
       </div>
     </div>
-
-    <p class="profile__bio" v-html="content.profile.bio"></p>
-
-    <p class="profile__highlight">{{ content.profile.highlight }}</p>
-
-    <dl class="profile__contact">
-      <div class="profile__contact-row">
-        <dt>Address</dt>
-        <dd>{{ content.profile.contact.address }}</dd>
-      </div>
-      <div class="profile__contact-row">
-        <dt>Email</dt>
-        <dd><a :href="`mailto:${content.profile.contact.email}`">{{ content.profile.contact.email }}</a></dd>
-      </div>
-      <div class="profile__contact-row">
-        <dt>Phone</dt>
-        <dd>{{ content.profile.contact.phone }}</dd>
-      </div>
-      <div class="profile__contact-row">
-        <dt>Web</dt>
-        <dd><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">{{ content.profile.contact.web }}</a></dd>
-      </div>
-    </dl>
   </section>
 </template>
 
@@ -51,36 +54,45 @@ const { content } = useLocale()
   padding: var(--space-5) var(--space-3);
 }
 
-.profile__top {
+.profile__layout {
   display: flex;
-  gap: var(--space-3);
-  align-items: center;
-  margin-bottom: var(--space-4);
+  gap: var(--space-4);
+  align-items: flex-start;
+}
+
+.profile__main {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile__photo-wrap {
+  flex-shrink: 0;
+  width: 17rem;
 }
 
 .profile__photo {
-  width: 7.5rem;
-  height: 7.5rem;
-  border-radius: 50%;
+  width: 100%;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  flex-shrink: 0;
+  border-radius: 0.75rem;
   border: 1px solid var(--color-border);
 }
 
 .profile__name {
-  font-size: 1.75rem;
-  margin: 0 0 0.15rem;
+  font-size: 2.25rem;
+  margin: 0 0 0.25rem;
 }
 
 .profile__degree {
-  margin: 0 0 0.4rem;
+  margin: 0 0 0.5rem;
   color: var(--color-text-muted);
   font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .profile__affiliation {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--color-text-muted);
 }
 
@@ -91,7 +103,7 @@ const { content } = useLocale()
 }
 
 .profile__bio {
-  margin: 0 0 var(--space-3);
+  margin: var(--space-3) 0;
 }
 
 .profile__highlight {
@@ -99,7 +111,7 @@ const { content } = useLocale()
   border-left: 3px solid var(--color-accent);
   padding: var(--space-2) var(--space-3);
   border-radius: 0.4rem;
-  margin: 0 0 var(--space-4);
+  margin: 0 0 var(--space-3);
 }
 
 .profile__contact {
@@ -123,11 +135,13 @@ const { content } = useLocale()
   margin: 0;
 }
 
-@media (max-width: 32rem) {
-  .profile__top {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
+@media (max-width: 42rem) {
+  .profile__layout {
+    flex-direction: column-reverse;
+  }
+
+  .profile__photo-wrap {
+    width: 11rem;
   }
 
   .profile__contact {

@@ -6,7 +6,7 @@ const en: SiteContent = {
   profile: {
     name: 'Nie (Elon) Lin',
     degree: 'Ph.D. Student (D1)',
-    photoCaption: 'Photo taken in October 2023, Tokyo, Japan',
+    photoCaption: 'Photo taken in November 2025, Hawaii, USA',
     affiliation: [
       'Interdisciplinary Information Studies, The Emerging Design and Informatics Course',
       'Graduate School of Interdisciplinary Information Studies (GSII)',
