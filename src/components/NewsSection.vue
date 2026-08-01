@@ -75,16 +75,15 @@ const visibleNews = computed(() =>
   font-family: inherit;
   font-size: 0.85rem;
   padding: 0.35rem 0.8rem;
-  border-radius: 999px;
   border: 1px solid var(--color-border);
   background: transparent;
-  color: var(--color-text-muted);
+  color: var(--color-text);
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .news__toggle:hover {
-  border-color: var(--color-accent);
-  color: var(--color-accent);
+  border-color: var(--color-text);
 }
 
 @media (max-width: 32rem) {

@@ -77,7 +77,6 @@ const { content } = useLocale()
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: 0.75rem;
   border: 1px solid var(--color-border);
 }
 
@@ -144,9 +143,8 @@ const { content } = useLocale()
 .profile__affiliation-badge {
   width: 2.5rem;
   height: 2.5rem;
-  border-radius: 50%;
-  background: var(--color-accent-soft);
-  color: var(--color-accent);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
   display: flex;
   align-items: center;
   justify-content: center;

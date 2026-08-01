@@ -56,7 +56,6 @@ const { content } = useLocale()
   width: 9rem;
   height: 6rem;
   object-fit: cover;
-  border-radius: 0.4rem;
   border: 1px solid var(--color-border);
   flex-shrink: 0;
 }
@@ -69,10 +68,8 @@ const { content } = useLocale()
 .pubs__new {
   font-size: 0.65rem;
   font-weight: 700;
-  background: var(--color-accent);
-  color: white;
+  border: 1px solid var(--color-text);
   padding: 0.1rem 0.4rem;
-  border-radius: 0.25rem;
   vertical-align: middle;
   margin-left: 0.3rem;
 }

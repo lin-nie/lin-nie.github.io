@@ -31,8 +31,7 @@ const langNames: Record<string, string> = { en: 'EN', zh: '中文', jp: '日本�
   position: sticky;
   top: 0;
   z-index: 10;
-  background: color-mix(in srgb, var(--color-bg) 88%, transparent);
-  backdrop-filter: blur(8px);
+  background: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
 }
 
@@ -60,7 +59,6 @@ const langNames: Record<string, string> = { en: 'EN', zh: '中文', jp: '日本�
   font-family: inherit;
   font-size: 0.85rem;
   padding: 0.3rem 0.6rem;
-  border-radius: 999px;
   border: 1px solid var(--color-border);
   background: transparent;
   color: var(--color-text-muted);
@@ -68,12 +66,13 @@ const langNames: Record<string, string> = { en: 'EN', zh: '中文', jp: '日本�
 }
 
 .header__lang-btn--active {
-  background: var(--color-accent-soft);
-  border-color: var(--color-accent);
-  color: var(--color-accent);
+  background: var(--color-text);
+  border-color: var(--color-text);
+  color: var(--color-bg);
+  font-weight: 700;
 }
 
 .header__lang-btn:hover {
-  border-color: var(--color-accent);
+  border-color: var(--color-text);
 }
 </style>
