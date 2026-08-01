@@ -25,8 +25,6 @@ const en: SiteContent = {
       and Dr. <a href="https://frosthan.github.io/" target="_blank" rel="noopener">Dongqi Han</a>.
       I have also worked with <a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">Dr. Takeshi Ohashi</a>
       in the Fundamental AI Team at <a href="https://ai.sony/" target="_blank" rel="noopener">Sony R&D</a>.`,
-    highlight:
-      'I am actively seeking internship opportunities in both industry and academia. Please feel free to reach out: nielin@iis.u-tokyo.ac.jp',
     contact: {
       address: 'Institute of Industrial Science (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
       email: 'nielin@iis.u-tokyo.ac.jp',

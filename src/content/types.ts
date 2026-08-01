@@ -9,7 +9,6 @@ export interface ProfileContent {
   degree: string
   photoCaption: string
   bio: string
-  highlight: string
   contact: {
     address: string
     email: string

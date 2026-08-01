@@ -22,7 +22,6 @@ const zh: SiteContent = {
       并与<a href="https://victorywys.github.io/" target="_blank" rel="noopener">王延森</a>博士和
       <a href="https://frosthan.github.io/" target="_blank" rel="noopener">韩东起</a>博士一起进行研究。
       我曾经在索尼 R&D 的基础 AI 团队与<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大桥武史</a>博士共同工作过。`,
-    highlight: '我目前正在积极寻找在工业界和学术界的实习机会，欢迎通过邮箱与我联系：nielin@iis.u-tokyo.ac.jp',
     contact: {
       address: '〒 153-8505 东京都目黑区驹场 4-6-1 东京大学 生产技术研究所',
       email: 'nielin@iis.u-tokyo.ac.jp',

@@ -23,8 +23,6 @@ const jp: SiteContent = {
       <a href="https://frosthan.github.io/" target="_blank" rel="noopener">韓東起</a>博士と共に研究を行っていました。
       また、<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大橋武史</a>博士と共に、
       ソニーR&Dの基盤AIチームで働いていました。`,
-    highlight:
-      '現在、産業界およびアカデミアにおけるインターンシップの機会を積極的に探しております。ご興味・ご関心がございましたら nielin@iis.u-tokyo.ac.jp までお気軽にご連絡ください。',
     contact: {
       address: '〒 153-8505 東京都目黒区駒場 4-6-1 東京大学 生産技術研究所',
       email: 'nielin@iis.u-tokyo.ac.jp',

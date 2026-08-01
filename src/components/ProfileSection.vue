@@ -14,8 +14,6 @@ const { content } = useLocale()
 
         <p class="profile__bio" v-html="content.profile.bio"></p>
 
-        <p class="profile__highlight">{{ content.profile.highlight }}</p>
-
         <dl class="profile__contact">
           <div class="profile__contact-row">
             <dt>Address</dt>
@@ -103,14 +101,6 @@ const { content } = useLocale()
 
 .profile__bio {
   margin: var(--space-3) 0;
-}
-
-.profile__highlight {
-  background: var(--color-accent-soft);
-  border-left: 3px solid var(--color-accent);
-  padding: var(--space-2) var(--space-3);
-  border-radius: 0.4rem;
-  margin: 0 0 var(--space-3);
 }
 
 .profile__contact {
