@@ -11,9 +11,6 @@ const { content } = useLocale()
       <div class="profile__main">
         <h1 class="profile__name">{{ content.profile.name }}</h1>
         <p class="profile__degree">{{ content.profile.degree }}</p>
-        <p v-for="line in content.profile.affiliation" :key="line" class="profile__affiliation">
-          {{ line }}
-        </p>
 
         <p class="profile__bio" v-html="content.profile.bio"></p>
 
@@ -96,12 +93,6 @@ const { content } = useLocale()
   color: var(--color-text-muted);
   font-weight: 500;
   font-size: 1.1rem;
-}
-
-.profile__affiliation {
-  margin: 0;
-  font-size: 0.95rem;
-  color: var(--color-text-muted);
 }
 
 .profile__caption {

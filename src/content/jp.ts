@@ -7,7 +7,6 @@ const jp: SiteContent = {
     name: '林 涅（リン ネ）',
     degree: '博士 (D1)',
     photoCaption: '撮影日：2025年11月、アメリカ、ハワイ',
-    affiliation: ['学際情報学 [先端表現情報学コース]', '学際情報学府', '東京大学'],
     bio: `こんにちは、私は<a href="https://www.u-tokyo.ac.jp/ja/index.html" target="_blank" rel="noopener">東京大学</a>
       学際情報学府の博士課程1年生です。
       <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">佐藤洋一</a>

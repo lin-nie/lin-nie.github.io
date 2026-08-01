@@ -7,11 +7,6 @@ const en: SiteContent = {
     name: 'Nie (Elon) Lin',
     degree: 'Ph.D. Student (D1)',
     photoCaption: 'Photo taken in November 2025, Hawaii, USA',
-    affiliation: [
-      'Interdisciplinary Information Studies, The Emerging Design and Informatics Course',
-      'Graduate School of Interdisciplinary Information Studies (GSII)',
-      'The University of Tokyo (UTokyo)',
-    ],
     bio: `Hi, I am a 1st-year PhD Student (D1) at
       <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The University of Tokyo</a>,
       supervised by Prof. <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>
