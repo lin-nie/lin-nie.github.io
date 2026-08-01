@@ -1,0 +1,241 @@
+import type { SiteContent } from './types'
+
+const zh: SiteContent = {
+  langLabel: '中文',
+  navHome: '主页',
+  profile: {
+    name: '林 涅',
+    degree: '博士 (D1)',
+    photoCaption: '拍摄于 2023 年 10 月，日本，东京',
+    affiliation: ['交叉信息学 [尖端表现信息学课程]', '跨学科交叉信息学院', '东京大学'],
+    bio: `你好，我是<a href="https://www.u-tokyo.ac.jp/zh/index.html" target="_blank" rel="noopener">东京大学</a>
+      跨学科交叉信息学博士一年级的研究生，在
+      <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">佐藤洋一</a>
+      教授的指导下，作为东京大学<a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">生产技术研究所 (IIS)</a>
+      ——<a href="https://www.ut-vision.org/" target="_blank" rel="noopener">计算机视觉小组</a>的成员进行研究。
+      之前，我于 2025 年在东京大学同一研究组完成了硕士学位，期间获得了
+      <a href="https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html" target="_blank" rel="noopener">东京大学奖学金</a>的全额资助。
+      我于 2022 年获得软件工程学士学位，在此期间接受
+      <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">蔡敏捷</a>教授的指导。此前，我在
+      <a href="https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/" target="_blank" rel="noopener">上海人工智能与机器学习组</a>
+      （<a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="noopener">微软亚洲研究院</a>）进行了为期一年的研究，
+      指导导师是<a href="https://recmind.cn/" target="_blank" rel="noopener">李东胜</a>博士，
+      并与<a href="https://victorywys.github.io/" target="_blank" rel="noopener">王延森</a>博士和
+      <a href="https://frosthan.github.io/" target="_blank" rel="noopener">韩东起</a>博士一起进行研究。
+      我曾经在索尼 R&D 的基础 AI 团队与<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大桥武史</a>博士共同工作过。`,
+    highlight: '我目前正在积极寻找在工业界和学术界的实习机会，欢迎通过邮箱与我联系：nielin@iis.u-tokyo.ac.jp',
+    contact: {
+      address: '〒 153-8505 东京都目黑区驹场 4-6-1 东京大学 生产技术研究所',
+      email: 'nielin@iis.u-tokyo.ac.jp',
+      phone: '+81 080-5637-8886（日本）',
+      web: 'lin-nie.github.io',
+    },
+  },
+  newsTitle: '消息',
+  navNews: '消息',
+  newsShowAll: '查看全部',
+  newsShowLess: '收起',
+  news: [
+  { date: "2025.08", html: "在 <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/' target=\"_blank\">微软亚洲研究院（Microsoft Research Asia）</a> 实习期间，因卓越的科研贡献荣获 <a href=\"https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-activity-7348623900131368961-Ec9R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg\">“Stars of Tomorrow”</a> 奖，并衷心感谢我的mentor与teams在整个过程中给予的宝贵指导与支持。" },
+  { date: "2025.05", html: "我结束了在<a href='https://www.microsoft.com/en-us/research/' target=\"_blank\">微软研究院</a>为期一年的科研实习之旅！感谢我的导师<a href=\"https://recmind.cn/\">李东胜博士</a>及<a href=\"https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/\">上海人工智能与机器学习组</a>的所有成员在此期间给予的支持与指导！" },
+  { date: "2025.02", html: "恭喜！我成功通过了 <a href='https://www.u-tokyo.ac.jp/en/' target=\"_blank\">东京大学</a> 的博士入学考试，将于今年四月开始在 <a href='https://www.iii.u-tokyo.ac.jp/' target=\"_blank\">情报学环·跨学科交叉信息学院（GSII）</a>攻读为期三年的博士学位。" },
+  { date: "2025.01", html: "恭喜！一篇论文被 <a href=\"https://iclr.cc/\">ICLR 2025</a> 接收，Openreview已上线。 <a href=\"https://openreview.net/forum?id=96jZFqM5E0\">[Openreview]</a>" },
+  { date: "2024.12", html: "恭喜！一篇论文被 <a href=\"https://2025.ieeeicassp.org/\">ICASSP 2025</a> 接收。" },
+  { date: "2024.09", html: "恭喜！一篇论文被 <a href=\"https://2024.emnlp.org/\">EMNLP 2024</a> 接收。" },
+  { date: "2024.07", html: "恭喜！两篇论文被 <a href=\"https://eccv2024.ecva.net/\">ECCV 2024</a> 接收。" },
+  { date: "2024.06", html: "恭喜！我将开始在 <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/' target=\"_blank\">微软亚洲研究院</a> 进行长期研究实习。我的指导老师是 <a href=\"https://recmind.cn/\">李东胜博士</a>，他属于 <a href=\"https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/\">上海AI/ML团队</a>。" },
+  { date: "2023.08", html: "恭喜！我将开始在 <br><a href=\"https://www.sony.com/en/SonyInfo/technology/about/\">索尼公司研发部门</a>（日本，东京）的基础人工智能团队进行暑期AI实习。我的指导老师是 <a href=\"https://jp.linkedin.com/in/takeshi-ohashi-056876ba\">大桥健史博士</a>。" },
+  { date: "2023.03", html: "恭喜！我已被 <a href=\"https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html\">东京大学奖学金</a> 选中，并将在东京大学的硕士项目中获得全额资助。" },
+  { date: "2023.02", html: "恭喜！我成功通过了 <a href='https://www.u-tokyo.ac.jp/en/' target=\"_blank\">东京大学</a> 的硕士入学考试，将于今年四月开始在 <a href='https://www.iii.u-tokyo.ac.jp/' target=\"_blank\">情报学环·跨学科交叉信息学院（GSII）</a>攻读为期两年的硕士学位。" },
+  { date: "2022.07", html: "我们关于<strong>知识迁移学习</strong>的论文已经被今年的<strong>ECCV 2022</strong>正式接受!! 代码已经开源。<a href=\"https://arxiv.org/pdf/2207.05409.pdf\">[論文]</a><a href=\"https://arxiv.org/abs/2207.05409\">[預印本]</a><a href=\"https://github.com/dzy3/KCD\">[Github代碼]</a>" },
+  { date: "2022.07", html: "我受邀参加今年<a href=\"https://cvpr2022.thecvf.com/\">CVPR 2022</a> 并参与 <a href=\"https://eyewear-computing.org/EPIC_CVPR22/\">EPIC 2022</a> 演讲。" },
+  { date: "2022.06", html: "恭喜! 我的论文在<a href=\"https://eyewear-computing.org/EPIC_CVPR22/\">CVPR-EPIC 2022</a>中关于<strong>无监督域适应第一人称动作识别</strong>顺利被接收, 在<a href=\"https://cai-mj.github.io/\">蔡 敏捷</a>教授的指导下。 预印本和代码均可用. <a href=\"https://arxiv.org/abs/2207.03095\">[預印本]</a> <a href=\"https://github.com/lin-nie/EPIC-KITCHENS-C4-UDA\">[Github代码]</a>" },
+  { date: "2022.06", html: "我的毕业论文<strong>《基于自我中心视频中无监督域适应的第一人称动作识别》</strong>顺利通过了本科毕业设计论文答辩。" },
+  { date: "2022.05", html: "恭喜! 我获得了<a href='http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html'>中华人民共和国国家奖学金</a>, 由<a href='http://en.moe.gov.cn/'>中华人民共和国教育部</a>颁布, 这是中国最高级别的奖学金项目! (<strong>全国排名前0.01%的学生</strong>)." },
+  { date: "2021.12", html: "我以年级第一的优异成绩获得了2021年的<strong>一等奖奖学金</strong>、<strong>岭南学术奖学金(优秀学术代表)</strong>，谢谢!" },
+  { date: "2021.10", html: "我从我们的实验室得到了属于我自己的<strong>头戴式相机</strong>，未来将尝试收集第一人称数据集。谢谢!" },
+  { date: "2021.06", html: "开始在湖南大学的計算機視覺实验室担任 <strong>研究助理</strong>。 由<a href='https://cai-mj.github.io/'>蔡 敏捷</a>教授担任指导老师。<a href=\"https://www.linnie.com.cn/documents/Research_Assistant_Minjie_Cai_Hunan_University.pdf\">[研究證明]</a>" },
+  { date: "2021.05", html: "我在美国数学建模竞赛USA MCM/ICM 中获得<strong>国际二等奖</strong>。" },
+  { date: "2021.01", html: "我们团队以<strong>13/2207</strong>的排名进入<a href=\"https://www.ccf.org.cn/en/\">中国计算机学会(CCF) </a> <strong>人工智能视觉算法大赛</strong>决赛。一次很赞的团队合作体验!!" },
+  { date: "2020.12", html: "我以年级第一的优异成绩获得了2020年的<strong>一等奖学金</strong>以及<strong> 高伟光企业奖学金(杰出工程代表) </strong>。谢谢!" },
+  { date: "2020.10", html: "我获得中国人工智能电子设计大赛三等奖 !!" },
+  { date: "2020.08", html: "我在<strong>新加坡国立大学</strong>完成了<strong>人工智能与深度学习</strong>领域的项目学习。并获得由新加坡国立大学颁发的<strong>荣誉奖</strong>。" },
+  { date: "2019.12", html: "我以年级第一的优异成绩获得了2019年的<strong>一等奖学金</strong>。谢谢!" },
+  { date: "2019.08", html: "在Prof. Lvy Wang的指导下，我在<strong>加拿大多伦多大学</strong>完成了一个关于数学与机器学习的研究项目。为我以后关于<strong>计算机视觉</strong>的研究奠定数学基础。" },
+  ],
+
+  researchTitle: '研究兴趣',
+  navResearch: '研究兴趣',
+  overallField: '整体领域',
+  researchOverInterest: [
+    '以人为中心的多模态智能',
+    '第一人称视觉与自我中心感知',
+    '具身与交互式人工智能',
+    '神经符号与类脑学习',
+  ],
+  specialField: '特别兴趣',
+  researchSpecialInterest: [
+    '面向第一人称场景的多模态感知与理解。',
+    '面向具身交互的三维人体与手部重建。',
+    '融合神经信号与视觉模型以促进人机对齐。',
+    '基于数据驱动的神经科学，用于理解人类的感知与行动。',
+  ],
+
+  publicationsTitle: '论文发表',
+  navPublications: '论文发表',
+  paperLabel: '论文',
+  projectLabel: '项目页面',
+  codeLabel: 'Github 代码',
+  videoLabel: '视频',
+  openreviewLabel: 'Openreview',
+  publications: [
+    {
+      title: 'SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training',
+      authors:
+        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <strong><a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a></strong>, Mingfang Zhang, Yifei Huang, <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a>, Ming Li, Ryosuke Furuta, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a><sup>✉</sup>',
+      venue: 'The Thirteenth International Conference on Learning Representations (ICLR), 2025',
+    },
+    {
+      title: 'Translating Mental Imaginations into Characters with Codebooks and Dynamics-Enhanced Decoding',
+      authors:
+        'Jingyuan Li, <a href="https://victorywys.github.io/" target="_blank" rel="noopener">Yansen Wang</a>, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://recmind.cn/" target="_blank" rel="noopener">Dongsheng Li</a><sup>✉</sup>',
+      venue: 'IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025',
+    },
+    {
+      title: 'Vision-Language Model Fine-Tuning via Simple Parameter-Efficient Modification',
+      authors:
+        'Ming Li, Jike Zhong, Chenxin Li, Liuzhuozheng Li, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <strong><a href="https://www.ms.k.u-tokyo.ac.jp/sugi/" target="_blank" rel="noopener">Masashi Sugiyama</a></strong><sup>✉</sup>',
+      venue: 'The Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024',
+    },
+    {
+      title: 'HandCLR: Pre-Training for 3D Hand Pose Estimation with Contrastive Learning on Large-Scale Hand Images in the Wild',
+      authors:
+        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <strong><a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a></strong>, Mingfang Zhang, Yifei Huang, Ryosuke Furuta, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>',
+      venue: 'HANDS, European Conference on Computer Vision Workshop (ECCVW), 2024',
+    },
+    {
+      title: 'Benchmarks and Challenges in Pose Estimation for Egocentric Hand Interactions with Objects',
+      authors:
+        'Zicong Fan, <strong><a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a></strong>, Linlin Yang, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, Zhishan Zhou, Shihao Zhou, Jiajun Liang, Zhong Gao, Xuanyang Zhang, Xue Zhang, Fei Li, Zheng Liu, Feng Lu, Karim Abou Zeid, Bastian Leibe, Jeongwan On, Seungryul Baek, Aditya Prakash, Saurabh Gupta, Kun He, Yoichi Sato, Otmar Hilliges, Hyung Jin Chang, Angela Yao',
+      venue: 'European Conference on Computer Vision (ECCV), 2024',
+    },
+    {
+      title: 'Knowledge Condensation Distillation',
+      authors:
+        'Chenxin Li, <a href="https://lmbxmu.github.io/" target="_blank" rel="noopener">Mingbao Lin</a>, Zhiyuan Ding, <strong>Nie Lin</strong>, Yihong Zhuang, <a href="https://huangyue05.github.io/" target="_blank" rel="noopener">Yue Huang</a><sup>✉</sup>, ...',
+      venue: 'European Conference on Computer Vision (ECCV), 2022',
+    },
+    {
+      title: 'EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022 Technical Report',
+      authors:
+        '<strong>Nie Lin</strong>, <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a><sup>✉</sup>',
+      venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC), 2022',
+    },
+  ],
+
+  educationTitle: '教育',
+  navEducation: '教育',
+  supervisedByLabel: '指导教授：',
+  education: [
+    {
+      period: '2023.4 – 至今',
+      degree: '博士课程',
+      mentor: '佐藤 洋一',
+      mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
+      department: '交叉信息学，跨学科交叉信息学院',
+      university: '东京大学',
+    },
+    {
+      period: '2023.4 – 2025.3',
+      degree: '硕士课程',
+      mentor: '佐藤 洋一',
+      mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
+      thesis: '基于对比学习的野外大规模手部图像三维手势估计预训练方法',
+      department: '交叉信息学，跨学科交叉信息学院',
+      university: '东京大学',
+    },
+  ],
+
+  honorsTitle: '荣誉奖项',
+  navHonors: '荣誉奖项',
+  scholarshipLabel: '所获奖学金',
+  scholarships: [
+    {
+      text: '日本次世代研究者挑战性研究计划（SPRING-GX）',
+      url: 'https://www.cis-trans.jp/spring_gx/',
+      explain: '3 年项目，博士期间全额资助',
+      supp: '由 JST 次世代研究者挑战的研究计划 JPMJSP2108 支援，额度：36 万日元 / 年',
+    },
+    {
+      text: '东京大学奖学金',
+      url: 'https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html',
+      explain: '2 年项目，硕士期间全额资助',
+      supp: '2023 年期间仅 22 名学生获得该奖学金',
+    },
+    {
+      text: '中华人民共和国国家奖学金',
+      url: 'http://www.moe.gov.cn/jyb_xxgk/s5743/s5744/A05/202112/t20211216_587869.html',
+      explain: '中华人民共和国教育部',
+      supp: '中国排名前 0.1% 的学生',
+    },
+    { text: '岭南学术奖学金（杰出学术代表）' },
+    { text: '2021 年学年度一等奖学金（年级 GPA 第一名，2021 年）' },
+    { text: '高伟光企业奖学金（杰出工程代表）' },
+    { text: '2020 年学年度一等奖学金（年级 GPA 第一名，2020 年）' },
+    { text: '2019 年学年度一等奖学金（年级 GPA 第一名，2019 年）' },
+  ],
+  awardsLabel: '奖励',
+  awards: [
+    '微软亚洲研究院 - 明日之星（Stars of Tomorrow）奖',
+    '优秀本科生论文',
+    '美国数学建模竞赛国际二等奖',
+    '中国计算机学会 AI 视觉算法大赛（排名 13/2207）',
+    '中国人工智能电子设计大赛三等奖',
+    '新加坡国立大学荣誉奖',
+  ],
+
+  patentTitle: '发表专利',
+  navPatents: '发表专利',
+  patents: [
+    {
+      name: '基于模拟信号处理的人机交互感知设备',
+      author: '林涅',
+      number: 'CN 202046227225.2',
+    },
+  ],
+  copyrightTitle: '软件著作',
+  softwareCopyright: [
+    { name: '日文邮政支付票据 OCR 识别安卓客户端 App（日文邮政票 OCR App）', number: '软著登字第 A0003976 号' },
+    { name: '基于人工智能的视频版权保护系统', number: '软著登字第 4840268 号' },
+  ],
+
+  fundTitle: '参与基金',
+  navFund: '参与基金',
+  scientificFund: [
+    {
+      name: '<a href="https://www.cis-trans.jp/spring_gx/" target="_blank" rel="noopener">JST 次世代研究者挑战的研究项目（SPRING-GX）</a>',
+      match: 'JST SPRING Grant Number JPMJSP2108',
+    },
+    {
+      name: '<a href="https://projectdb.jst.go.jp/grant/JST-PROJECT-23837230/" target="_blank" rel="noopener">构建以人为中心的视觉与媒体技术国际联合研究网络</a>',
+      match: 'JST ASPIRE Grant Number JPMJAP2303',
+    },
+    {
+      name: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K02956/" target="_blank" rel="noopener">基于影像的人物行为理解的语义深化</a>',
+      match: 'JSPS KAKENHI Grant Number JP24K02956',
+    },
+    {
+      name: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-22KF0119/" target="_blank" rel="noopener">通过第一人称视角教学影像的多模态分析进行人物行为的学习与预测</a>',
+      match: 'JSPS KAKENHI Grant Number JP22KF0119',
+    },
+    {
+      name: '<a href="https://www.jst.go.jp/kisoken/act-x/en/project/111F001/111F001_2020.html" target="_blank" rel="noopener">利用模仿型人工智能理解人类行为</a>',
+      match: 'JST ACT-X Grant Number JPMJAX2007',
+    },
+  ],
+
+  footerPeriod: '© 2018–2025 林涅',
+  lastUpdatedLabel: '上次更新',
+}
+
+export default zh

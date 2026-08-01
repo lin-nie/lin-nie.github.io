@@ -1,0 +1,65 @@
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans', 'Noto Sans SC',
+    'Noto Sans JP', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  --color-bg: #ffffff;
+  --color-bg-subtle: #f6f7f9;
+  --color-text: #1a1d21;
+  --color-text-muted: #5b6270;
+  --color-border: #e4e7eb;
+  --color-accent: #3457d5;
+  --color-accent-soft: #eef1fc;
+
+  --max-width: 46rem;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2.5rem;
+  --space-5: 4rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #14161a;
+    --color-bg-subtle: #1c1f24;
+    --color-text: #e8eaed;
+    --color-text-muted: #9aa1ac;
+    --color-border: #2c3036;
+    --color-accent: #7f9bff;
+    --color-accent-soft: #1d2438;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  font-weight: 600;
+}
