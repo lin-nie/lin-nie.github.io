@@ -72,23 +72,6 @@ const en: SiteContent = {
   { date: "2019.08", html: "Under the leadership of Prof. Lvy Wang, I completed a research project on mathematics and machine learning in <strong>University of Toronto, Canada</strong>. Lay a mathematical foundation for my future research in <strong>Computer Vision</strong>." },
   ],
 
-  researchTitle: 'Research Interests',
-  navResearch: 'Research Interests',
-  overallField: 'Overall Field',
-  researchOverInterest: [
-    'Human-Centered Multimodal Intelligence',
-    'Egocentric & First-Person Vision',
-    'Embodied and Interactive AI',
-    'Neuro-Symbolic and Brain-Inspired Learning',
-  ],
-  specialField: 'Special Interests',
-  researchSpecialInterest: [
-    'Multimodal perception and understanding in first-person scenarios.',
-    '3D human and hand reconstruction for embodied interaction.',
-    'Bridging neural signals and vision models for human-AI alignment.',
-    'Data-driven neuroscience for understanding human perception and action.',
-  ],
-
   publicationsTitle: 'Publications',
   navPublications: 'Publications',
   paperLabel: 'Paper',

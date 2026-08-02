@@ -70,23 +70,6 @@ const jp: SiteContent = {
   { date: "2019.08", html: "Prof. Lvy Wangのご指導により、<strong>カナダのトロント大学（UofT）</strong>で私は数学と機械学習に関する研究プロジェクトを取り組みました。今後の<strong>コンピュータビジョン</strong>に関する研究に数学の基礎を築きくれました。" },
   ],
 
-  researchTitle: '研究趣味',
-  navResearch: '研究趣味',
-  overallField: 'Overall Field',
-  researchOverInterest: [
-    '人間中心のマルチモーダル知能',
-    '一人称視点（エゴセントリック）ビジョン',
-    '身体性およびインタラクティブAI',
-    '神経シンボリック・脳型学習',
-  ],
-  specialField: 'Special Interests',
-  researchSpecialInterest: [
-    '一人称視点におけるマルチモーダル知覚と理解の研究。',
-    '身体的インタラクションのための3次元人体および手の再構成。',
-    '神経信号と視覚モデルの統合による人間とAIのアラインメント。',
-    '人間の知覚と行動の理解に向けたデータ駆動型神経科学。',
-  ],
-
   publicationsTitle: '発表論文',
   navPublications: '発表論文',
   paperLabel: '論文',

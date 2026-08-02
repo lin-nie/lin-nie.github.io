@@ -69,23 +69,6 @@ const zh: SiteContent = {
   { date: "2019.08", html: "在Prof. Lvy Wang的指导下，我在<strong>加拿大多伦多大学</strong>完成了一个关于数学与机器学习的研究项目。为我以后关于<strong>计算机视觉</strong>的研究奠定数学基础。" },
   ],
 
-  researchTitle: '研究兴趣',
-  navResearch: '研究兴趣',
-  overallField: '整体领域',
-  researchOverInterest: [
-    '以人为中心的多模态智能',
-    '第一人称视觉与自我中心感知',
-    '具身与交互式人工智能',
-    '神经符号与类脑学习',
-  ],
-  specialField: '特别兴趣',
-  researchSpecialInterest: [
-    '面向第一人称场景的多模态感知与理解。',
-    '面向具身交互的三维人体与手部重建。',
-    '融合神经信号与视觉模型以促进人机对齐。',
-    '基于数据驱动的神经科学，用于理解人类的感知与行动。',
-  ],
-
   publicationsTitle: '论文发表',
   navPublications: '论文发表',
   paperLabel: '论文',

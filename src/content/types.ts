@@ -56,13 +56,6 @@ export interface SiteContent {
   newsShowAll: string
   newsShowLess: string
 
-  researchTitle: string
-  navResearch: string
-  overallField: string
-  researchOverInterest: string[]
-  specialField: string
-  researchSpecialInterest: string[]
-
   publicationsTitle: string
   navPublications: string
   publications: PublicationItem[]
