@@ -11,11 +11,11 @@
   --color-link-hover: #f09228;
 
   --max-width: 50rem;
-  --space-1: 0.5rem;
-  --space-2: 1rem;
-  --space-3: 1.5rem;
-  --space-4: 2.5rem;
-  --space-5: 4rem;
+  --space-1: 0.375rem;
+  --space-2: 0.625rem;
+  --space-3: 1.25rem;
+  --space-4: 1.5rem;
+  --space-5: 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
