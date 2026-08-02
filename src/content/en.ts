@@ -5,9 +5,9 @@ const en: SiteContent = {
   navHome: 'Home',
   profile: {
     name: 'Nie (Elon) Lin',
-    degree: 'Ph.D. Student (D1)',
+    degree: 'Ph.D. Student (D2)',
     photoCaption: 'Photo taken in Nov. 2025, Hawaii 🌺, USA',
-    bio: `Hi, I am a 1st-year PhD Student (D1) at
+    bio: `Hi, I am a 2nd-year PhD Student (D2) at
       <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The University of Tokyo</a>,
       supervised by Prof. <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>
       and working as a member of the <a href="https://www.ut-vision.org/" target="_blank" rel="noopener">Computer Vision Group</a>

@@ -5,10 +5,10 @@ const zh: SiteContent = {
   navHome: '主页',
   profile: {
     name: '林 涅',
-    degree: '博士 (D1)',
+    degree: '博士 (D2)',
     photoCaption: '拍摄于 2025 年 11 月，美国，夏威夷 🌺',
     bio: `你好，我是<a href="https://www.u-tokyo.ac.jp/zh/index.html" target="_blank" rel="noopener">东京大学</a>
-      跨学科交叉信息学博士一年级的研究生，在
+      跨学科交叉信息学博士二年级的研究生，在
       <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">佐藤洋一</a>
       教授的指导下，作为东京大学<a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">生产技术研究所 (IIS)</a>
       ——<a href="https://www.ut-vision.org/" target="_blank" rel="noopener">计算机视觉小组</a>的成员进行研究。
