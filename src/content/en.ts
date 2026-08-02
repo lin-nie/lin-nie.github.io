@@ -7,24 +7,15 @@ const en: SiteContent = {
     name: 'Nie (Elon) Lin',
     degree: 'Ph.D. Student (D2)',
     photoCaption: 'Photo taken in Nov. 2025, Hawaii 🌺, USA',
-    bio: `Hi, I am a 2nd-year PhD Student (D2) at
-      <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The University of Tokyo</a>,
-      supervised by Prof. <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>
-      and working as a member of the <a href="https://www.ut-vision.org/" target="_blank" rel="noopener">Computer Vision Group</a>
-      at the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science (IIS)</a>.
-      Previously, I completed my Master's degree in the same group at The University of Tokyo in 2025,
-      supported by a full scholarship from the
-      <a href="https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html" target="_blank" rel="noopener">University of Tokyo Fellowship</a>.
-      I received my bachelor's degree in software engineering in 2022, supervised by Prof.
-      <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a>.
-      I previously worked as a full-time research intern at the
-      <a href="https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/" target="_blank" rel="noopener">Shanghai AI/ML Group</a>
-      of <a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="noopener">Microsoft Research</a>,
-      supervised by Dr. <a href="https://recmind.cn/" target="_blank" rel="noopener">Dongsheng Li</a>,
-      and worked with Dr. <a href="https://victorywys.github.io/" target="_blank" rel="noopener">Yansen Wang</a>
-      and Dr. <a href="https://frosthan.github.io/" target="_blank" rel="noopener">Dongqi Han</a>.
-      I have also worked with <a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">Dr. Takeshi Ohashi</a>
-      in the Fundamental AI Team at <a href="https://ai.sony/" target="_blank" rel="noopener">Sony R&D</a>.`,
+    bio: `I am co-advised at <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">the University of Tokyo</a>
+      in Japan and <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a> in the United States.
+      I am currently a second-year PhD student (D2), advised by Prof.
+      <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a> (UTokyo IIS)
+      and Prof. <a href="https://kriskitani.github.io/" target="_blank" rel="noopener">Kris Kitani</a> (CMU RI).
+      I am a member of the <a href="https://www.ut-vision.org/" target="_blank" rel="noopener">Computer Vision Group</a>
+      at the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science (IIS)</a>,
+      the University of Tokyo, and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a>
+      at Carnegie Mellon University.`,
     contact: {
       address: 'Institute of Industrial Science (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
       email: 'nielin@iis.u-tokyo.ac.jp',
