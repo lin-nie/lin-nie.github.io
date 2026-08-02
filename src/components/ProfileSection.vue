@@ -70,7 +70,7 @@ const { content } = useLocale()
 
 .profile__photo-wrap {
   flex-shrink: 0;
-  width: 12.5rem;
+  width: 16rem;
 }
 
 .profile__photo {
@@ -172,7 +172,7 @@ const { content } = useLocale()
   }
 
   .profile__photo-wrap {
-    width: 10rem;
+    width: 12rem;
   }
 
   .profile__contact {
