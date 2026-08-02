@@ -70,13 +70,14 @@ const { content } = useLocale()
 
 .profile__photo-wrap {
   flex-shrink: 0;
-  width: 21rem;
+  width: 12.5rem;
 }
 
 .profile__photo {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .profile__name {
@@ -96,6 +97,7 @@ const { content } = useLocale()
   margin: 0.5rem 0 0;
   font-size: 0.8rem;
   color: var(--color-text-muted);
+  text-align: center;
 }
 
 .profile__bio {
@@ -170,7 +172,7 @@ const { content } = useLocale()
   }
 
   .profile__photo-wrap {
-    width: 13rem;
+    width: 10rem;
   }
 
   .profile__contact {

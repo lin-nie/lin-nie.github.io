@@ -7,7 +7,7 @@ const { content, locale } = useLocale()
 const dateLocale: Record<string, string> = { en: 'en-US', zh: 'zh-CN', jp: 'ja-JP' }
 
 const lastUpdated = computed(() =>
-  new Intl.DateTimeFormat(dateLocale[locale.value], { year: 'numeric', month: 'long', day: 'numeric' }).format(
+  new Intl.DateTimeFormat(dateLocale[locale.value], { year: 'numeric', month: 'long' }).format(
     new Date(__BUILD_DATE__)
   )
 )

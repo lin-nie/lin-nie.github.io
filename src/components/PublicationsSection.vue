@@ -67,10 +67,9 @@ const publicationsWithLinks = computed(() =>
 }
 
 .pubs__image {
-  width: 9rem;
-  height: 6rem;
+  width: 11rem;
+  height: 6.6rem;
   object-fit: cover;
-  border: 1px solid var(--color-border);
   flex-shrink: 0;
 }
 
