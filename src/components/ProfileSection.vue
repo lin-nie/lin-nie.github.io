@@ -42,8 +42,10 @@ const { content } = useLocale()
         <dt>Email</dt>
         <dd>
           <a :href="`mailto:${content.profile.contact.email}`">{{ content.profile.contact.email }}</a>
-          /
+          {{ content.profile.contact.emailUtokyoTag }}
+          {{ content.profile.contact.emailAndWord }}
           <a :href="`mailto:${content.profile.contact.emailCmu}`">{{ content.profile.contact.emailCmu }}</a>
+          {{ content.profile.contact.emailCmuTag }}
         </dd>
       </div>
       <div class="profile__contact-row">
