@@ -22,6 +22,9 @@ const zh: SiteContent = {
       并与<a href="https://victorywys.github.io/" target="_blank" rel="noopener">王延森</a>博士和
       <a href="https://frosthan.github.io/" target="_blank" rel="noopener">韩东起</a>博士一起进行研究。
       我曾经在索尼 R&D 的基础 AI 团队与<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大桥武史</a>博士共同工作过。`,
+    researchStatement: `我很好奇机器如何才能学会感知并行动于物理世界之中——答案或许就藏在我们所拥有的最丰富的具身经验来源里：
+      人类自身，以及其背后的神经信号。我的研究聚焦于以人为中心的多模态感知与类脑具身智能，通过第一人称视角的人类数据
+      ——从第一人称视频、神经信号到手部与身体动作——来教会具身智能体像我们一样去观察、理解并操控这个世界。`,
     contact: {
       addressJpLabel: '地址（日本）',
       addressJp: '〒 153-8505 东京都目黑区驹场 4-6-1 东京大学 生产技术研究所 Ee-401（IIS）',

@@ -14,6 +14,7 @@ const { content } = useLocale()
         <p class="profile__degree">{{ content.profile.degree }}</p>
 
         <p class="profile__bio" v-html="content.profile.bio"></p>
+        <p class="profile__bio" v-html="content.profile.researchStatement"></p>
       </div>
 
       <div class="profile__photo-wrap">

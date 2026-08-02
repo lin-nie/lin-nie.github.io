@@ -14,6 +14,11 @@ const en: SiteContent = {
       at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>.
       I work with the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science</a>
       at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at Carnegie Mellon University.`,
+    researchStatement: `I am curious about how machines can learn to perceive and act in the physical world—and the answer may lie
+      in the richest source of embodied experience we have: humans themselves, and the neural signals behind them.
+      My research centers on human-centered multimodal perception and neuro-inspired embodied intelligence, using
+      egocentric human data—from first-person video and neural signals to hand and body motion—to teach embodied
+      agents to see, understand, and manipulate the world as we do.`,
     contact: {
       addressJpLabel: 'Address (JP)',
       addressJp: 'Ee-401 (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',

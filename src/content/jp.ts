@@ -23,6 +23,11 @@ const jp: SiteContent = {
       <a href="https://frosthan.github.io/" target="_blank" rel="noopener">韓東起</a>博士と共に研究を行っていました。
       また、<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大橋武史</a>博士と共に、
       ソニーR&Dの基盤AIチームで働いていました。`,
+    researchStatement: `機械がどのようにして物理世界を知覚し行動できるようになるのか、私はそこに強い関心を持っています——
+      その答えは、私たちが持つ最も豊かな身体的経験の源、すなわち人間自身とその背後にある神経信号にあるのかもしれません。
+      私の研究は、人間中心のマルチモーダル知覚と脳型の身体性知能を中心に据え、一人称視点の人間データ——
+      一人称動画や神経信号から手や体の動きまで——を用いて、身体性エージェントが私たちと同じように世界を見て、
+      理解し、操作できるように学習させることを目指しています。`,
     contact: {
       addressJpLabel: '住所（日）',
       addressJp: '〒 153-8505 東京都目黒区駒場 4-6-1 東京大学 生産技術研究所 Ee-401（IIS）',

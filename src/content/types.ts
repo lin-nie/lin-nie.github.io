@@ -9,6 +9,7 @@ export interface ProfileContent {
   degree: string
   photoCaption: string
   bio: string
+  researchStatement: string
   contact: {
     addressJpLabel: string
     addressJp: string
