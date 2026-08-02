@@ -67,19 +67,20 @@ const publicationsWithLinks = computed(() =>
 }
 
 .pubs__image {
-  width: 11rem;
-  height: 6.6rem;
+  width: 12.5rem;
+  height: 7.5rem;
   object-fit: cover;
   flex-shrink: 0;
 }
 
 .pubs__paper-title {
-  font-size: 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
   margin: 0 0 0.3rem;
 }
 
 .pubs__new {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: var(--color-link-hover);
   vertical-align: middle;
@@ -87,20 +88,16 @@ const publicationsWithLinks = computed(() =>
 }
 
 .pubs__authors {
-  font-size: 0.9rem;
   margin: 0 0 0.3rem;
-  line-height: 1.4;
 }
 
 .pubs__venue {
-  font-size: 0.9rem;
   font-style: italic;
   color: var(--color-text-muted);
   margin: 0 0 0.4rem;
 }
 
 .pubs__links {
-  font-size: 0.9rem;
   margin: 0;
 }
 

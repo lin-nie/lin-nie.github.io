@@ -53,7 +53,6 @@ const { content } = useLocale()
 .honors__list {
   margin: 0;
   padding-left: 1.2rem;
-  font-size: 0.95rem;
 }
 
 .honors__list li {
@@ -65,7 +64,6 @@ const { content } = useLocale()
 }
 
 .honors__supp {
-  font-size: 0.85rem;
   font-style: italic;
   color: var(--color-text-muted);
 }

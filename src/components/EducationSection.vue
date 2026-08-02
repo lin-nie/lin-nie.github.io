@@ -39,7 +39,6 @@ const { content } = useLocale()
   gap: var(--space-3);
   padding: var(--space-2) 0;
   border-top: 1px solid var(--color-border);
-  font-size: 0.9rem;
 }
 
 .education__entry:last-child {

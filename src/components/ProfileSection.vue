@@ -95,7 +95,6 @@ const { content } = useLocale()
 
 .profile__caption {
   margin: 0.5rem 0 0;
-  font-size: 0.8rem;
   color: var(--color-text-muted);
   text-align: center;
 }
@@ -110,7 +109,6 @@ const { content } = useLocale()
   row-gap: 0.5rem;
   column-gap: var(--space-3);
   margin: 0;
-  font-size: 0.9rem;
 }
 
 .profile__contact-row {

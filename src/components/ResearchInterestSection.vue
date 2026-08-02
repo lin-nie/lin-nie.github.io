@@ -50,7 +50,6 @@ const { content } = useLocale()
 .research__list {
   margin: 0;
   padding-left: 1.2rem;
-  font-size: 0.95rem;
 }
 
 .research__list li {

@@ -56,7 +56,6 @@ const visibleNews = computed(() =>
   gap: var(--space-3);
   padding: var(--space-2) 0;
   border-bottom: 1px solid var(--color-border);
-  font-size: 0.9rem;
 }
 
 .news__date {
@@ -73,7 +72,6 @@ const visibleNews = computed(() =>
 .news__toggle {
   margin-top: var(--space-2);
   font-family: inherit;
-  font-size: 0.85rem;
   padding: 0;
   border: none;
   background: transparent;

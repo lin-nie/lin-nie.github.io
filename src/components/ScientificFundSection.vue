@@ -32,7 +32,6 @@ const { content } = useLocale()
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 0.95rem;
 }
 
 .fund__list li {
@@ -41,7 +40,6 @@ const { content } = useLocale()
 
 .fund__meta {
   margin: 0.1rem 0 0;
-  font-size: 0.85rem;
   color: var(--color-text-muted);
 }
 </style>
