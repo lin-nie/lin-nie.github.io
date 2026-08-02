@@ -17,10 +17,10 @@ const en: SiteContent = {
       I am currently pursuing my PhD with the support of the
       <a href="https://www.jsps.go.jp/english/e-pd/" target="_blank" rel="noopener">JSPS Research Fellowship for Young Scientists (DC2)</a>,
       one of the most prestigious fellowships for doctoral students in Japan.`,
-    researchStatement: `I am curious about how machines can learn to perceive and act in the physical world—and the answer may lie
-      in the richest source of embodied experience we have: humans themselves, and the neural signals behind them.
-      My research centers on human-centered multimodal perception and neuro-inspired embodied intelligence, using
-      egocentric human data—from first-person video and neural signals to hand and body motion—to teach embodied
+    researchStatement: `I am curious about how machines can learn to <strong>perceive and act in the physical world</strong>—and the answer may lie
+      in the richest source of embodied experience we have: <strong>humans themselves, and the neural signals behind them</strong>.
+      My research centers on <strong>human-centered multimodal perception</strong> and <strong>neuro-inspired embodied intelligence</strong>, using
+      <strong>egocentric human data</strong>—from first-person video and neural signals to hand and body motion—to teach embodied
       agents to see, understand, and manipulate the world as we do.`,
     contact: {
       addressJpLabel: 'Address (JP)',
