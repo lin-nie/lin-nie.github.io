@@ -25,7 +25,9 @@ const { content } = useLocale()
 
     <div class="profile__affiliations">
       <div v-for="a in content.profile.affiliations" :key="a.name" class="profile__affiliation-item">
-        <img class="profile__affiliation-logo" :src="affiliationLogos[a.logoKey]" :alt="a.name" />
+        <div class="profile__affiliation-logo-box">
+          <img class="profile__affiliation-logo" :src="affiliationLogos[a.logoKey]" :alt="a.name" />
+        </div>
         <span class="profile__affiliation-role">{{ a.role }}</span>
       </div>
     </div>
@@ -147,12 +149,21 @@ const { content } = useLocale()
   width: 7.5rem;
 }
 
-.profile__affiliation-logo {
-  height: 1.75rem;
-  width: auto;
-  max-width: 100%;
-  object-fit: contain;
+.profile__affiliation-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.5rem;
+  height: 2.75rem;
   margin-bottom: 0.5rem;
+}
+
+.profile__affiliation-logo {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
 }
 
 .profile__affiliation-role {
