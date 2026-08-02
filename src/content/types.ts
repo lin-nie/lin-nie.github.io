@@ -1,7 +1,7 @@
 export interface AffiliationItem {
   name: string
   role: string
-  initials: string
+  logoKey: string
 }
 
 export interface ProfileContent {

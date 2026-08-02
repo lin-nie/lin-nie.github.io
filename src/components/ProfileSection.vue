@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useLocale } from '../content'
 import profilePhoto from '../assets/profile-photo.jpg'
+import { affiliationLogos } from '../content/affiliationLinks'
 
 const { content } = useLocale()
 </script>
@@ -23,8 +24,7 @@ const { content } = useLocale()
 
     <div class="profile__affiliations">
       <div v-for="a in content.profile.affiliations" :key="a.name" class="profile__affiliation-item">
-        <div class="profile__affiliation-badge">{{ a.initials }}</div>
-        <span class="profile__affiliation-name">{{ a.name }}</span>
+        <img class="profile__affiliation-logo" :src="affiliationLogos[a.logoKey]" :alt="a.name" />
         <span class="profile__affiliation-role">{{ a.role }}</span>
       </div>
     </div>
@@ -137,31 +137,20 @@ const { content } = useLocale()
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 6.5rem;
+  width: 7.5rem;
 }
 
-.profile__affiliation-badge {
-  width: 2.5rem;
-  height: 2.5rem;
-  border: 1px solid var(--color-border);
-  color: var(--color-text);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.7rem;
-  font-weight: 700;
-  margin-bottom: 0.4rem;
-}
-
-.profile__affiliation-name {
-  font-size: 0.8rem;
-  font-weight: 600;
+.profile__affiliation-logo {
+  height: 1.75rem;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
 }
 
 .profile__affiliation-role {
   font-size: 0.7rem;
   color: var(--color-text-muted);
-  margin-top: 0.15rem;
 }
 
 @media (max-width: 42rem) {
