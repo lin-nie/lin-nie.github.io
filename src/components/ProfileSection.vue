@@ -49,10 +49,6 @@ const { content } = useLocale()
         </dd>
       </div>
       <div class="profile__contact-row">
-        <dt>Phone</dt>
-        <dd>{{ content.profile.contact.phone }}</dd>
-      </div>
-      <div class="profile__contact-row">
         <dt>Web</dt>
         <dd><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">{{ content.profile.contact.web }}</a></dd>
       </div>

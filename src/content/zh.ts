@@ -32,7 +32,6 @@ const zh: SiteContent = {
       emailCmu: 'niel@andrew.cmu.edu',
       emailCmuTag: '（CMU）',
       emailAndWord: '和',
-      phone: '+81 080-5637-8886（日本）',
       web: 'lin-nie.github.io',
     },
     affiliations: [

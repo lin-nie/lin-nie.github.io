@@ -19,7 +19,6 @@ export interface ProfileContent {
     emailCmu: string
     emailCmuTag: string
     emailAndWord: string
-    phone: string
     web: string
   }
   affiliations: AffiliationItem[]
