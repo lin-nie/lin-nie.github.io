@@ -24,7 +24,7 @@ const { content } = useLocale()
 }
 
 .fund__title {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   margin: 0 0 var(--space-3);
 }
 

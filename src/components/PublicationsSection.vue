@@ -1,29 +1,43 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useLocale } from '../content'
 import { publicationLinks } from '../content/publicationLinks'
 
 const { content } = useLocale()
+
+const linksFor = (i: number) => {
+  const pl = publicationLinks[i]
+  const entries: { label: string; url: string }[] = []
+  if (pl.paper) entries.push({ label: content.value.paperLabel, url: pl.paper })
+  if (pl.project) entries.push({ label: content.value.projectLabel, url: pl.project })
+  if (pl.code) entries.push({ label: content.value.codeLabel, url: pl.code })
+  if (pl.video) entries.push({ label: content.value.videoLabel, url: pl.video })
+  if (pl.openreview) entries.push({ label: content.value.openreviewLabel, url: pl.openreview })
+  return entries
+}
+
+const publicationsWithLinks = computed(() =>
+  content.value.publications.map((pub, i) => ({ pub, links: linksFor(i), meta: publicationLinks[i] }))
+)
 </script>
 
 <template>
   <section class="pubs">
     <h2 class="pubs__title">{{ content.publicationsTitle }}</h2>
-    <article v-for="(pub, i) in content.publications" :key="pub.title" class="pubs__item">
-      <img class="pubs__image" :src="publicationLinks[i].image" alt="" />
+    <article v-for="entry in publicationsWithLinks" :key="entry.pub.title" class="pubs__item">
+      <img class="pubs__image" :src="entry.meta.image" alt="" />
       <div class="pubs__body">
         <h3 class="pubs__paper-title">
-          {{ pub.title }}
-          <span v-if="publicationLinks[i].isNew" class="pubs__new">NEW</span>
+          {{ entry.pub.title }}
+          <span v-if="entry.meta.isNew" class="pubs__new">NEW</span>
         </h3>
-        <p class="pubs__authors" v-html="pub.authors"></p>
-        <p class="pubs__venue">{{ pub.venue }}</p>
-        <div class="pubs__links">
-          <a v-if="publicationLinks[i].paper" :href="publicationLinks[i].paper" target="_blank" rel="noopener">{{ content.paperLabel }}</a>
-          <a v-if="publicationLinks[i].project" :href="publicationLinks[i].project" target="_blank" rel="noopener">{{ content.projectLabel }}</a>
-          <a v-if="publicationLinks[i].code" :href="publicationLinks[i].code" target="_blank" rel="noopener">{{ content.codeLabel }}</a>
-          <a v-if="publicationLinks[i].video" :href="publicationLinks[i].video" target="_blank" rel="noopener">{{ content.videoLabel }}</a>
-          <a v-if="publicationLinks[i].openreview" :href="publicationLinks[i].openreview" target="_blank" rel="noopener">{{ content.openreviewLabel }}</a>
-        </div>
+        <p class="pubs__authors" v-html="entry.pub.authors"></p>
+        <p class="pubs__venue">{{ entry.pub.venue }}</p>
+        <p class="pubs__links">
+          <template v-for="(link, j) in entry.links" :key="link.label">
+            <span v-if="j > 0"> / </span><a :href="link.url" target="_blank" rel="noopener">{{ link.label }}</a>
+          </template>
+        </p>
       </div>
     </article>
   </section>
@@ -37,7 +51,7 @@ const { content } = useLocale()
 }
 
 .pubs__title {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   margin: 0 0 var(--space-3);
 }
 
@@ -66,30 +80,29 @@ const { content } = useLocale()
 }
 
 .pubs__new {
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   font-weight: 700;
-  border: 1px solid var(--color-text);
-  padding: 0.1rem 0.4rem;
+  color: var(--color-link-hover);
   vertical-align: middle;
   margin-left: 0.3rem;
 }
 
 .pubs__authors {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   margin: 0 0 0.3rem;
   line-height: 1.4;
 }
 
 .pubs__venue {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
+  font-style: italic;
   color: var(--color-text-muted);
-  margin: 0 0 0.5rem;
+  margin: 0 0 0.4rem;
 }
 
 .pubs__links {
-  display: flex;
-  gap: 0.8rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  margin: 0;
 }
 
 @media (max-width: 32rem) {

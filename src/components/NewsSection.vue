@@ -40,7 +40,7 @@ const visibleNews = computed(() =>
 }
 
 .news__title {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   margin: 0 0 var(--space-3);
 }
 
@@ -74,16 +74,15 @@ const visibleNews = computed(() =>
   margin-top: var(--space-2);
   font-family: inherit;
   font-size: 0.85rem;
-  padding: 0.35rem 0.8rem;
-  border: 1px solid var(--color-border);
+  padding: 0;
+  border: none;
   background: transparent;
-  color: var(--color-text);
+  color: var(--color-link);
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .news__toggle:hover {
-  border-color: var(--color-text);
+  color: var(--color-link-hover);
 }
 
 @media (max-width: 32rem) {

@@ -1,14 +1,14 @@
 :root {
-  --font-serif: Georgia, 'Times New Roman', 'Songti SC', 'Hiragino Mincho ProN', 'Noto Serif SC',
-    'Noto Serif JP', serif;
+  --font-sans: 'Lato', 'PingFang SC', 'Hiragino Sans', 'Noto Sans SC', 'Noto Sans JP', Verdana,
+    Helvetica, Arial, sans-serif;
 
   --color-bg: #ffffff;
   --color-bg-subtle: #f5f5f5;
-  --color-text: #111111;
-  --color-text-muted: #555555;
-  --color-border: #cccccc;
-  --color-link: #0000ee;
-  --color-link-visited: #551a8b;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666666;
+  --color-border: #dddddd;
+  --color-link: #1772d0;
+  --color-link-hover: #f09228;
 
   --max-width: 62rem;
   --space-1: 0.5rem;
@@ -25,8 +25,8 @@
     --color-text: #e8e8e6;
     --color-text-muted: #a3a3a0;
     --color-border: #3a3b3e;
-    --color-link: #6699ff;
-    --color-link-visited: #b592e0;
+    --color-link: #6ca7e8;
+    --color-link-hover: #f4ac5e;
   }
 }
 
@@ -41,7 +41,8 @@ body {
 }
 
 body {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
+  font-size: 15px;
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.65;
@@ -50,11 +51,12 @@ body {
 
 a {
   color: var(--color-link);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
-a:visited {
-  color: var(--color-link-visited);
+a:hover,
+a:focus {
+  color: var(--color-link-hover);
 }
 
 h1,

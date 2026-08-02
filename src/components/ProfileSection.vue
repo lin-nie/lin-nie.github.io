@@ -77,19 +77,19 @@ const { content } = useLocale()
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border: 1px solid var(--color-border);
 }
 
 .profile__name {
-  font-size: 2.25rem;
+  font-size: 2rem;
   margin: 0 0 0.25rem;
+  text-align: center;
 }
 
 .profile__degree {
   margin: 0 0 0.5rem;
   color: var(--color-text-muted);
-  font-weight: 500;
-  font-size: 1.1rem;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
 .profile__caption {

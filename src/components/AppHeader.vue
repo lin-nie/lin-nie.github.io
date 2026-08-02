@@ -66,13 +66,13 @@ const langNames: Record<string, string> = { en: 'EN', zh: '中文', jp: '日本�
 }
 
 .header__lang-btn--active {
-  background: var(--color-text);
-  border-color: var(--color-text);
-  color: var(--color-bg);
+  border-color: var(--color-link);
+  color: var(--color-link);
   font-weight: 700;
 }
 
 .header__lang-btn:hover {
-  border-color: var(--color-text);
+  border-color: var(--color-link-hover);
+  color: var(--color-link-hover);
 }
 </style>
