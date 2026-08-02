@@ -13,25 +13,6 @@ const { content } = useLocale()
         <p class="profile__degree">{{ content.profile.degree }}</p>
 
         <p class="profile__bio" v-html="content.profile.bio"></p>
-
-        <dl class="profile__contact">
-          <div class="profile__contact-row">
-            <dt>Address</dt>
-            <dd>{{ content.profile.contact.address }}</dd>
-          </div>
-          <div class="profile__contact-row">
-            <dt>Email</dt>
-            <dd><a :href="`mailto:${content.profile.contact.email}`">{{ content.profile.contact.email }}</a></dd>
-          </div>
-          <div class="profile__contact-row">
-            <dt>Phone</dt>
-            <dd>{{ content.profile.contact.phone }}</dd>
-          </div>
-          <div class="profile__contact-row">
-            <dt>Web</dt>
-            <dd><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">{{ content.profile.contact.web }}</a></dd>
-          </div>
-        </dl>
       </div>
 
       <div class="profile__photo-wrap">
@@ -47,6 +28,25 @@ const { content } = useLocale()
         <span class="profile__affiliation-role">{{ a.role }}</span>
       </div>
     </div>
+
+    <dl class="profile__contact">
+      <div class="profile__contact-row">
+        <dt>Address</dt>
+        <dd>{{ content.profile.contact.address }}</dd>
+      </div>
+      <div class="profile__contact-row">
+        <dt>Email</dt>
+        <dd><a :href="`mailto:${content.profile.contact.email}`">{{ content.profile.contact.email }}</a></dd>
+      </div>
+      <div class="profile__contact-row">
+        <dt>Phone</dt>
+        <dd>{{ content.profile.contact.phone }}</dd>
+      </div>
+      <div class="profile__contact-row">
+        <dt>Web</dt>
+        <dd><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">{{ content.profile.contact.web }}</a></dd>
+      </div>
+    </dl>
   </section>
 </template>
 
@@ -108,7 +108,7 @@ const { content } = useLocale()
   grid-template-columns: auto 1fr;
   row-gap: 0.5rem;
   column-gap: var(--space-3);
-  margin: 0;
+  margin: var(--space-4) 0 0;
 }
 
 .profile__contact-row {
