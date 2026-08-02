@@ -28,6 +28,7 @@ const zh: SiteContent = {
       addressUsLabel: '地址（美国）',
       addressUs: '201 Smith Hall (EDSH), Carnegie Mellon University, 4800 Forbes Ave, Pittsburgh, PA 15213, USA',
       email: 'nielin@iis.u-tokyo.ac.jp',
+      emailCmu: 'niel@andrew.cmu.edu',
       phone: '+81 080-5637-8886（日本）',
       web: 'lin-nie.github.io',
     },

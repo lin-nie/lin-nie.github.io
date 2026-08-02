@@ -15,6 +15,7 @@ export interface ProfileContent {
     addressUsLabel: string
     addressUs: string
     email: string
+    emailCmu: string
     phone: string
     web: string
   }

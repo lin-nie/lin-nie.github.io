@@ -40,7 +40,11 @@ const { content } = useLocale()
       </div>
       <div class="profile__contact-row">
         <dt>Email</dt>
-        <dd><a :href="`mailto:${content.profile.contact.email}`">{{ content.profile.contact.email }}</a></dd>
+        <dd>
+          <a :href="`mailto:${content.profile.contact.email}`">{{ content.profile.contact.email }}</a>
+          /
+          <a :href="`mailto:${content.profile.contact.emailCmu}`">{{ content.profile.contact.emailCmu }}</a>
+        </dd>
       </div>
       <div class="profile__contact-row">
         <dt>Phone</dt>
