@@ -13,7 +13,7 @@ const en: SiteContent = {
       and Prof. <a href="https://kriskitani.github.io/" target="_blank" rel="noopener">Kris Kitani</a>
       at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>.
       I work with the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science</a>
-      at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at CMU.`,
+      at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at Carnegie Mellon University.`,
     contact: {
       address: 'Institute of Industrial Science (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
       email: 'nielin@iis.u-tokyo.ac.jp',
