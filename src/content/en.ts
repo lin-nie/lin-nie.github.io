@@ -9,12 +9,11 @@ const en: SiteContent = {
     photoCaption: 'Photo taken in Nov. 2025, Hawaii 🌺, USA',
     bio: `I am a second-year PhD student (D2) co-advised by Prof.
       <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>
-      at <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">the University of Tokyo</a> (Institute of Industrial Science)
+      at <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">the University of Tokyo</a>
       and Prof. <a href="https://kriskitani.github.io/" target="_blank" rel="noopener">Kris Kitani</a>
-      at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a> (Robotics Institute).
-      I work with the <a href="https://www.ut-vision.org/" target="_blank" rel="noopener">Computer Vision Group</a>
-      at the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science (IIS)</a>
-      and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at CMU.`,
+      at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>.
+      I work with the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science</a>
+      at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at CMU.`,
     contact: {
       address: 'Institute of Industrial Science (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
       email: 'nielin@iis.u-tokyo.ac.jp',
