@@ -36,8 +36,10 @@ const en: SiteContent = {
     },
     affiliations: [
       { name: 'The University of Tokyo', role: "M.S. '23–'25, Ph.D. '25–", logoKey: 'utokyo' },
+      { name: 'Carnegie Mellon University', role: "Ph.D. (Co-Advised), '25–", logoKey: 'cmu' },
       { name: 'Microsoft Research Asia', role: "Research Intern '24–'25", logoKey: 'microsoft' },
       { name: 'Sony R&D', role: "Summer AI Intern '23", logoKey: 'sony' },
+      { name: 'JSPS', role: 'Research Fellow (DC2)', logoKey: 'jsps' },
     ],
   },
   newsTitle: 'News',

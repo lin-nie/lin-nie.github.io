@@ -39,8 +39,10 @@ const zh: SiteContent = {
     },
     affiliations: [
       { name: '东京大学', role: '硕士 2023–2025，博士 2025–至今', logoKey: 'utokyo' },
+      { name: '卡内基梅隆大学', role: '博士（共同指导）2025–至今', logoKey: 'cmu' },
       { name: '微软亚洲研究院', role: '研究实习 2024–2025', logoKey: 'microsoft' },
       { name: '索尼 R&D', role: '暑期 AI 实习 2023', logoKey: 'sony' },
+      { name: 'JSPS', role: '特别研究员（DC2）', logoKey: 'jsps' },
     ],
   },
   newsTitle: '消息',

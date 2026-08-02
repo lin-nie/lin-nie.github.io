@@ -42,8 +42,10 @@ const jp: SiteContent = {
     },
     affiliations: [
       { name: '東京大学', role: '修士 2023–2025、博士 2025–現在', logoKey: 'utokyo' },
+      { name: 'カーネギーメロン大学', role: '博士課程（共同指導）2025–現在', logoKey: 'cmu' },
       { name: 'マイクロソフトリサーチアジア', role: '研究インターン 2024–2025', logoKey: 'microsoft' },
       { name: 'ソニー R&D', role: '夏季 AI インターン 2023', logoKey: 'sony' },
+      { name: 'JSPS', role: '特別研究員（DC2）', logoKey: 'jsps' },
     ],
   },
   newsTitle: 'ニュース',
