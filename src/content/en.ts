@@ -210,7 +210,7 @@ const en: SiteContent = {
     },
   ],
 
-  footerPeriod: '© 2018–2025 Nie Lin',
+  footerPeriod: '© 2018–2026 Nie (Elon) Lin',
   lastUpdatedLabel: 'Last updated',
 }
 

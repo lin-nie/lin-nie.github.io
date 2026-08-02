@@ -207,7 +207,7 @@ const zh: SiteContent = {
     },
   ],
 
-  footerPeriod: '© 2018–2025 林涅',
+  footerPeriod: '© 2018–2026 林涅',
   lastUpdatedLabel: '上次更新',
 }
 
