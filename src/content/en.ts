@@ -13,7 +13,10 @@ const en: SiteContent = {
       and Prof. <a href="https://kriskitani.github.io/" target="_blank" rel="noopener">Kris Kitani</a>
       at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a>.
       I work with the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science</a>
-      at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at Carnegie Mellon University.`,
+      at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at Carnegie Mellon University.
+      I am currently pursuing my PhD with the support of the
+      <a href="https://www.jsps.go.jp/english/e-pd/" target="_blank" rel="noopener">JSPS Research Fellowship for Young Scientists (DC2)</a>,
+      one of the most prestigious fellowships for doctoral students in Japan.`,
     researchStatement: `I am curious about how machines can learn to perceive and act in the physical world—and the answer may lie
       in the richest source of embodied experience we have: humans themselves, and the neural signals behind them.
       My research centers on human-centered multimodal perception and neuro-inspired embodied intelligence, using
