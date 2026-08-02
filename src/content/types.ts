@@ -77,12 +77,6 @@ export interface SiteContent {
   awardsLabel: string
   awards: string[]
 
-  patentTitle: string
-  navPatents: string
-  patents: { name: string; author: string; number: string }[]
-  copyrightTitle: string
-  softwareCopyright: { name: string; number: string }[]
-
   fundTitle: string
   navFund: string
   scientificFund: { name: string; match: string }[]

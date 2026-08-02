@@ -183,21 +183,6 @@ const jp: SiteContent = {
     'シンガポール国立大学名誉賞',
   ],
 
-  patentTitle: '発明特許',
-  navPatents: '発明特許',
-  patents: [
-    {
-      name: 'アナログ信号処理ベースのヒューマンインタラクション感知装置',
-      author: '林 涅',
-      number: 'CN 202046227225.2',
-    },
-  ],
-  copyrightTitle: 'ソフトウエア著作権',
-  softwareCopyright: [
-    { name: '日本郵便の支払伝票OCR認識システム', number: 'ソフトウエア著作権 No.A0003976' },
-    { name: '人工知能による映像著作権保護システム', number: 'ソフトウエア著作権 No.4840268' },
-  ],
-
   fundTitle: '研究ファンド',
   navFund: '研究ファンド',
   scientificFund: [

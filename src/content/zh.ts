@@ -182,21 +182,6 @@ const zh: SiteContent = {
     '新加坡国立大学荣誉奖',
   ],
 
-  patentTitle: '发表专利',
-  navPatents: '发表专利',
-  patents: [
-    {
-      name: '基于模拟信号处理的人机交互感知设备',
-      author: '林涅',
-      number: 'CN 202046227225.2',
-    },
-  ],
-  copyrightTitle: '软件著作',
-  softwareCopyright: [
-    { name: '日文邮政支付票据 OCR 识别安卓客户端 App（日文邮政票 OCR App）', number: '软著登字第 A0003976 号' },
-    { name: '基于人工智能的视频版权保护系统', number: '软著登字第 4840268 号' },
-  ],
-
   fundTitle: '参与基金',
   navFund: '参与基金',
   scientificFund: [

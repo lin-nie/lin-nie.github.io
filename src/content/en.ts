@@ -185,21 +185,6 @@ const en: SiteContent = {
     'Honorary Award of the National University of Singapore',
   ],
 
-  patentTitle: 'Patents',
-  navPatents: 'Patents',
-  patents: [
-    {
-      name: 'Human-computer Interaction (HCI) Sensing Devices based on Analog Signal Processing',
-      author: 'Nie Lin',
-      number: 'CN 202046227225.2',
-    },
-  ],
-  copyrightTitle: 'Software Copyright',
-  softwareCopyright: [
-    { name: 'OCR Recognition System for Japanese Postal Payment Notes', number: 'No. A0003976' },
-    { name: 'Video Copyright Protection System based on Artificial Intelligence', number: 'No. 4840268' },
-  ],
-
   fundTitle: 'Research Funding',
   navFund: 'Research Funding',
   scientificFund: [
