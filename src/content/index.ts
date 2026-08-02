@@ -5,7 +5,7 @@ import zh from './zh'
 import jp from './jp'
 
 const dictionary: Record<Locale, SiteContent> = { en, zh, jp }
-const locales: Locale[] = ['en', 'zh', 'jp']
+const locales: Locale[] = ['jp', 'en', 'zh']
 
 function detectInitialLocale(): Locale {
   const saved = localStorage.getItem('locale')
