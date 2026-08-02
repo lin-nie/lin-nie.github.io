@@ -16,9 +16,9 @@ const en: SiteContent = {
       at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at Carnegie Mellon University.`,
     contact: {
       addressJpLabel: 'Address (JP)',
-      addressJp: 'Institute of Industrial Science (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
+      addressJp: 'Ee-401 (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
       addressUsLabel: 'Address (US)',
-      addressUs: 'Smith Hall (EDSH), Carnegie Mellon University, 4800 Forbes Ave, Pittsburgh, PA 15213, USA',
+      addressUs: '201 Smith Hall (EDSH), Carnegie Mellon University, 4800 Forbes Ave, Pittsburgh, PA 15213, USA',
       email: 'nielin@iis.u-tokyo.ac.jp',
       phone: '+81 080-5637-8886 (Japan)',
       web: 'lin-nie.github.io',

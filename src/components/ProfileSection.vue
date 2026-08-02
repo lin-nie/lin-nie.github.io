@@ -31,12 +31,12 @@ const { content } = useLocale()
 
     <dl class="profile__contact">
       <div class="profile__contact-row">
-        <dt>{{ content.profile.contact.addressJpLabel }}</dt>
-        <dd>{{ content.profile.contact.addressJp }}</dd>
-      </div>
-      <div class="profile__contact-row">
         <dt>{{ content.profile.contact.addressUsLabel }}</dt>
         <dd>{{ content.profile.contact.addressUs }}</dd>
+      </div>
+      <div class="profile__contact-row">
+        <dt>{{ content.profile.contact.addressJpLabel }}</dt>
+        <dd>{{ content.profile.contact.addressJp }}</dd>
       </div>
       <div class="profile__contact-row">
         <dt>Email</dt>
