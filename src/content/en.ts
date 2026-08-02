@@ -15,7 +15,10 @@ const en: SiteContent = {
       I work with the <a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">Institute of Industrial Science</a>
       at the UTokyo and the <a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a> at Carnegie Mellon University.`,
     contact: {
-      address: 'Institute of Industrial Science (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
+      addressJpLabel: 'Address (JP)',
+      addressJp: 'Institute of Industrial Science (IIS), The University of Tokyo, 4-6-1 Komaba, Meguro-ku, Tokyo, 153-8505 Japan',
+      addressUsLabel: 'Address (US)',
+      addressUs: 'Smith Hall (EDSH), Carnegie Mellon University, 4800 Forbes Ave, Pittsburgh, PA 15213, USA',
       email: 'nielin@iis.u-tokyo.ac.jp',
       phone: '+81 080-5637-8886 (Japan)',
       web: 'lin-nie.github.io',

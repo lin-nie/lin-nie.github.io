@@ -10,7 +10,10 @@ export interface ProfileContent {
   photoCaption: string
   bio: string
   contact: {
-    address: string
+    addressJpLabel: string
+    addressJp: string
+    addressUsLabel: string
+    addressUs: string
     email: string
     phone: string
     web: string

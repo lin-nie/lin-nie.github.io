@@ -24,7 +24,10 @@ const jp: SiteContent = {
       また、<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大橋武史</a>博士と共に、
       ソニーR&Dの基盤AIチームで働いていました。`,
     contact: {
-      address: '〒 153-8505 東京都目黒区駒場 4-6-1 東京大学 生産技術研究所',
+      addressJpLabel: '住所（日本）',
+      addressJp: '〒 153-8505 東京都目黒区駒場 4-6-1 東京大学 生産技術研究所',
+      addressUsLabel: '住所（米国）',
+      addressUs: 'Smith Hall (EDSH), Carnegie Mellon University, 4800 Forbes Ave, Pittsburgh, PA 15213, USA',
       email: 'nielin@iis.u-tokyo.ac.jp',
       phone: '+81 080-5637-8886（日本）',
       web: 'lin-nie.github.io',

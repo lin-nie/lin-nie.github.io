@@ -23,7 +23,10 @@ const zh: SiteContent = {
       <a href="https://frosthan.github.io/" target="_blank" rel="noopener">韩东起</a>博士一起进行研究。
       我曾经在索尼 R&D 的基础 AI 团队与<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大桥武史</a>博士共同工作过。`,
     contact: {
-      address: '〒 153-8505 东京都目黑区驹场 4-6-1 东京大学 生产技术研究所',
+      addressJpLabel: '地址（日本）',
+      addressJp: '〒 153-8505 东京都目黑区驹场 4-6-1 东京大学 生产技术研究所',
+      addressUsLabel: '地址（美国）',
+      addressUs: 'Smith Hall (EDSH), Carnegie Mellon University, 4800 Forbes Ave, Pittsburgh, PA 15213, USA',
       email: 'nielin@iis.u-tokyo.ac.jp',
       phone: '+81 080-5637-8886（日本）',
       web: 'lin-nie.github.io',
