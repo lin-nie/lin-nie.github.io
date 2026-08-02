@@ -9,7 +9,7 @@ const en: SiteContent = {
     photoCaption: 'Photo taken in Nov. 2025, Hawaii 🌺, USA',
     bio: `I am a second-year PhD student (D2) co-advised by Prof.
       <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>
-      at <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">the University of Tokyo</a> (IIS)
+      at <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">the University of Tokyo</a> (Institute of Industrial Science)
       and Prof. <a href="https://kriskitani.github.io/" target="_blank" rel="noopener">Kris Kitani</a>
       at <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a> (Robotics Institute).
       I work with the <a href="https://www.ut-vision.org/" target="_blank" rel="noopener">Computer Vision Group</a>
