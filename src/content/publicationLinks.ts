@@ -5,30 +5,59 @@ import pub3 from '../assets/publications/pub-3.jpg'
 import pub4 from '../assets/publications/pub-4.jpg'
 import pub5 from '../assets/publications/pub-5.jpg'
 import pub6 from '../assets/publications/pub-6.jpg'
+import pub6Teaser from '../assets/publications/simhand-teaser.mp4'
+import pub7 from '../assets/publications/pub-7.png'
+import pub8 from '../assets/publications/pub-8.jpg'
+import pub8Teaser from '../assets/publications/simdex-teaser.mp4'
+import iclrIcon from '../assets/venues/iclr.png'
 
 export interface PublicationLinks {
   image: string
+  teaserVideo?: string
   isNew?: boolean
   paper?: string
+  paperComingSoon?: boolean
   project?: string
+  projectComingSoon?: boolean
   code?: string
   video?: string
   openreview?: string
+  dataset?: string
+  venueIcon?: string
 }
 
 // Ordered newest-first, matching each language's `publications` array.
 export const publicationLinks: PublicationLinks[] = [
   {
-    image: pub6,
+    image: pub8,
+    teaserVideo: pub8Teaser,
     isNew: true,
+    paper: 'https://lin-nie.github.io/',
+    paperComingSoon: true,
+    project: 'https://lin-nie.github.io/SiMDex/',
+    video: 'https://www.youtube.com/watch?v=SsqdK0xTtzY',
+  },
+  {
+    image: pub7,
+    isNew: true,
+    paper: 'https://arxiv.org/abs/2506.01353',
+    project: 'https://lin-nie.github.io/',
+    projectComingSoon: true,
+    dataset: 'https://huggingface.co/datasets/ut-vision/EgoBrain',
+    openreview: 'https://openreview.net/forum?id=DGcoJINQ7P',
+    venueIcon: iclrIcon,
+  },
+  {
+    image: pub6,
+    teaserVideo: pub6Teaser,
     paper: 'https://openreview.net/pdf?id=96jZFqM5E0',
     openreview: 'https://openreview.net/forum?id=96jZFqM5E0',
     project: 'https://tkhkaeio.github.io/projects/25-simhand/index.html',
     code: 'https://github.com/ut-vision/SiMHand',
+    venueIcon: iclrIcon,
   },
   {
     image: pub5,
-    isNew: true,
     paper: 'https://arxiv.org/abs/2409.16816',
   },
   {

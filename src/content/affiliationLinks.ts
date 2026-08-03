@@ -11,3 +11,13 @@ export const affiliationLogos: Record<string, string> = {
   cmu,
   jsps,
 }
+
+// Visual weight varies a lot across these logos (bold wordmarks vs. thin
+// icon+text lockups), so each gets a manual scale to balance the strip.
+export const affiliationLogoScale: Record<string, number> = {
+  utokyo: 1,
+  microsoft: 1,
+  sony: 0.8,
+  cmu: 0.75,
+  jsps: 0.95,
+}

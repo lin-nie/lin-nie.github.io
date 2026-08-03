@@ -20,7 +20,10 @@ const { content } = useLocale()
 
     <h3 class="honors__subtitle">{{ content.awardsLabel }}</h3>
     <ul class="honors__list">
-      <li v-for="a in content.awards" :key="a">{{ a }}</li>
+      <li v-for="a in content.awards" :key="a.text">
+        <a v-if="a.url" :href="a.url" target="_blank" rel="noopener">{{ a.text }}</a>
+        <template v-else>{{ a.text }}</template>
+      </li>
     </ul>
   </section>
 </template>

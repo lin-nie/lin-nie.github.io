@@ -7,22 +7,16 @@ const jp: SiteContent = {
     name: '林 涅（リン ネ）',
     degree: '博士 (D2)',
     photoCaption: '撮影日：2025年11月、アメリカ、ハワイ 🌺',
-    bio: `こんにちは、私は<a href="https://www.u-tokyo.ac.jp/ja/index.html" target="_blank" rel="noopener">東京大学</a>
-      学際情報学府の博士課程2年生です。
-      <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">佐藤洋一</a>
-      教授の指導の下、<a href="https://www.iis.u-tokyo.ac.jp/ja/" target="_blank" rel="noopener">生産技術研究所 (IIS)</a>
-      の<a href="https://www.ut-vision.org/ja/" target="_blank" rel="noopener">コンピュータビジョングループ</a>
-      の一員として研究を行っています。2025年に東京大学の同じ研究室で修士号を取得し、その間
-      <a href="https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html" target="_blank" rel="noopener">東京大学フェローシップ</a>
-      の全額奨学金を受けていました。2022年にソフトウェア工学の学士号を取得し、その間
-      <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">蔡敏捷</a>教授の指導を受けました。
-      以前は<a href="https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/" target="_blank" rel="noopener">Shanghai AI/ML Group</a>
-      （<a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="noopener">マイクロソフトリサーチ</a>）にて
-      <a href="https://recmind.cn/" target="_blank" rel="noopener">李東勝</a>博士の指導の下、
-      <a href="https://victorywys.github.io/" target="_blank" rel="noopener">王延森</a>博士と
-      <a href="https://frosthan.github.io/" target="_blank" rel="noopener">韓東起</a>博士と共に研究を行っていました。
-      また、<a href="https://jp.linkedin.com/in/takeshi-ohashi-056876ba" target="_blank" rel="noopener">大橋武史</a>博士と共に、
-      ソニーR&Dの基盤AIチームで働いていました。`,
+    bio: `私は<a href="https://www.u-tokyo.ac.jp/ja/index.html" target="_blank" rel="noopener">東京大学</a>の
+      <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">佐藤洋一</a>教授と
+      <a href="https://www.cmu.edu/" target="_blank" rel="noopener">カーネギーメロン大学</a>の
+      <a href="https://kriskitani.github.io/" target="_blank" rel="noopener">Kris Kitani</a>教授の共同指導のもと、
+      博士課程2年生（D2）として研究を行っています。
+      東京大学<a href="https://www.iis.u-tokyo.ac.jp/ja/" target="_blank" rel="noopener">生産技術研究所（IIS）</a>、
+      およびカーネギーメロン大学<a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">ロボティクス研究所</a>に所属しています。
+      現在、日本の博士課程学生にとって最も権威ある奨学金の一つである
+      <a href="https://www.jsps.go.jp/j-pd/" target="_blank" rel="noopener">日本学術振興会（JSPS）特別研究員（DC2）</a>
+      の支援を受けて、博士課程に取り組んでいます。`,
     researchStatement: `<strong>機械がどのようにして物理世界を知覚し行動できるようになるのか</strong>、私はそこに強い関心を持っています——
       その答えは、私たちが持つ最も豊かな身体的経験の源、すなわち<strong>人間自身とその背後にある神経信号</strong>にあるのかもしれません。
       私の研究は、<strong>人間中心のマルチモーダル知覚</strong>と<strong>脳型の身体性知能</strong>を中心に据え、
@@ -43,19 +37,23 @@ const jp: SiteContent = {
     affiliations: [
       { name: '東京大学', role: '修士 2023–2025、博士 2025–現在', logoKey: 'utokyo' },
       { name: 'カーネギーメロン大学', role: '博士課程（共同指導）2025–現在', logoKey: 'cmu' },
-      { name: 'マイクロソフトリサーチアジア', role: '研究インターン 2024–2025', logoKey: 'microsoft' },
-      { name: 'ソニー R&D', role: '夏季 AI インターン 2023', logoKey: 'sony' },
       { name: 'JSPS', role: '特別研究員（DC2）', logoKey: 'jsps' },
+      { name: 'マイクロソフトリサーチアジア', role: '研究インターン 2024–2025', logoKey: 'microsoft' },
+      { name: 'ソニー R&D', role: '研究インターン 2023', logoKey: 'sony' },
     ],
+    cvNote: '私の履歴書は<a href="#" target="_blank" rel="noopener">こちら</a>からダウンロードできます。',
   },
   newsTitle: 'ニュース',
   navNews: 'ニュース',
   newsShowAll: 'すべて表示',
   newsShowLess: '折りたたむ',
   news: [
-  { date: "2025.08", html: "【Congrats！】<a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/' target=\"_blank\">Microsoft Research Asia（MSRA）</a> でのインターンシップ期間中、優れた研究成果が評価され、<a href=\"https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-activity-7348623900131368961-Ec9R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg\">「Stars of Tomorrow」</a>賞（若手研究者に与えられる最高の栄誉）を受賞しました。指導してくださったメンターの方々とチームの皆様のご支援・ご助言に心より感謝申し上げます。" },
-  { date: "2025.05", html: "<a href='https://www.microsoft.com/en-us/research/' target=\"_blank\">マイクロソフトリサーチ</a>での1年間の研究インターンシップを終了しました！指導教員の<a href=\"https://recmind.cn/\">李東勝博士</a>、および<a href=\"https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/\">上海AI/MLグループ</a>の皆様には、この期間中のご支援とご指導に心より感謝いたします。" },
-  { date: "2025.02", html: "【Congrats！】私は <a href='https://www.u-tokyo.ac.jp/en/' target=\"_blank\">東京大学</a> の博士課程入試に合格し、2025年4月から <a href='https://www.iii.u-tokyo.ac.jp/' target=\"_blank\">東京大学大学院情報学環</a> で3年間の博士課程を開始します。" },
+  { date: "2026.07", html: "<a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">ピッツバーグ</a>での新生活が始まりました。<a href=\"https://www.cmu.edu/\">カーネギーメロン大学</a><a href=\"https://www.ri.cmu.edu/\">ロボティクス研究所</a>にて、<a href=\"https://kriskitani.github.io/\">Kris Kitani</a>教授のご指導のもと研究をスタートします。" },
+  { date: "2026.04", html: "【Congrats！】<a href=\"https://www.jsps.go.jp/j-pd/\">日本学術振興会特別研究員（DC2）</a>に採択されました。日本の博士課程学生にとって最も権威ある奨学金の一つです。" },
+  { date: "2026.01", html: "【Congrats！】1本の論文が <a href=\"https://iclr.cc/\">ICLR 2026</a> に採択され、Openreviewが公開されました。 <a href=\"https://openreview.net/forum?id=DGcoJINQ7P\">[Openreview]</a>" },
+  { date: "2025.08", html: "【Congrats！】<a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/' target=\"_blank\">Microsoft Research Asia（MSRA）</a> でのインターン中、<a href=\"https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-activity-7348623900131368961-Ec9R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg\">「Stars of Tomorrow」</a>賞を受賞しました。メンターとチームの皆様に感謝します。" },
+  { date: "2025.05", html: "<a href='https://www.microsoft.com/en-us/research/' target=\"_blank\">マイクロソフトリサーチ</a>での1年間の研究インターンを終了しました！<a href=\"https://recmind.cn/\">李東勝博士</a>と<a href=\"https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/\">上海AI/MLグループ</a>に感謝します。" },
+  { date: "2025.02", html: "【Congrats！】<a href='https://www.u-tokyo.ac.jp/en/' target=\"_blank\">東京大学</a>の博士課程入試に合格し、2025年4月から博士課程を開始します。" },
   { date: "2025.01", html: "【Congrats！】1本の論文が <a href=\"https://iclr.cc/\">ICLR 2025</a> に採択され、Openreviewが公開されました。 <a href=\"https://openreview.net/forum?id=96jZFqM5E0\">[Openreview]</a>" },
   { date: "2024.12", html: "【Congrats！】1本の論文が <a href=\"https://2025.ieeeicassp.org/\">ICASSP 2025</a> に採択されました。" },
   { date: "2024.09", html: "【Congrats！】1本の論文が <a href=\"https://2024.emnlp.org/\">EMNLP 2024</a> に採択されました。" },
@@ -81,54 +79,68 @@ const jp: SiteContent = {
   { date: "2019.08", html: "Prof. Lvy Wangのご指導により、<strong>カナダのトロント大学（UofT）</strong>で私は数学と機械学習に関する研究プロジェクトを取り組みました。今後の<strong>コンピュータビジョン</strong>に関する研究に数学の基礎を築きくれました。" },
   ],
 
-  publicationsTitle: '発表論文',
-  navPublications: '発表論文',
+  publicationsTitle: 'プロジェクト',
+  navPublications: 'プロジェクト',
   paperLabel: '論文',
   projectLabel: 'プロジェクトページ',
   codeLabel: 'コード',
   videoLabel: 'ビデオ',
   openreviewLabel: 'Openreview',
+  datasetLabel: 'データセット',
+  comingSoonLabel: '近日公開',
   publications: [
+    {
+      title: 'SiMDex: Mining Similar Egocentric Videos for Cross-Embodiment Dexterous Manipulation',
+      authors:
+        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a>, <a href="https://ch3cook-fdu.github.io/" target="_blank" rel="noopener">Sijin Chen</a>, <a href="https://github.com/ruoshiwen" target="_blank" rel="noopener">Ruoshi Wen</a>, <a href="#">Zhuohang Li</a>, <a href="#">Liqun Huang</a>, <a href="https://github.com/zhuzhengming" target="_blank" rel="noopener">Zhengming Zhu</a>, <a href="https://chillinfree.github.io/" target="_blank" rel="noopener">Yiming Bao</a>, <a href="https://irisli17.github.io/" target="_blank" rel="noopener">Yunfei Li</a>, <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a>, <a href="https://yusufma03.github.io/" target="_blank" rel="noopener">Xiao Ma</a>, <a href="#">Wei Xu</a>, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>',
+      venue: 'Preprint, 2026',
+    },
+    {
+      title: 'EgoBrain: Synergizing Minds and Eyes For Human Action Understanding',
+      authors:
+        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://victorywys.github.io/" target="_blank" rel="noopener">Yansen Wang</a>, <a href="https://frosthan.github.io/" target="_blank" rel="noopener">Dongqi Han</a>, <a href="https://935963004.github.io/" target="_blank" rel="noopener">Weibang Jiang</a>, <a href="https://christincha.github.io/" target="_blank" rel="noopener">Jingyuan Li</a>, <a href="https://rfuruta.github.io/" target="_blank" rel="noopener">Ryosuke Furuta</a>, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>, <a href="https://recmind.cn/" target="_blank" rel="noopener">Dongsheng Li</a>',
+      venue: 'The Fourteenth International Conference on Learning Representations (ICLR), 2026',
+    },
     {
       title: 'SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training',
       authors:
-        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <strong><a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a></strong>, Mingfang Zhang, Yifei Huang, <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a>, Ming Li, Ryosuke Furuta, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a><sup>✉</sup>',
+        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a>, <a href="https://mf-zhang.github.io/" target="_blank" rel="noopener">Mingfang Zhang</a>, <a href="https://hyf015.github.io/" target="_blank" rel="noopener">Yifei Huang</a>, <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a>, <a href="#">Ming Li</a>, <a href="https://rfuruta.github.io/" target="_blank" rel="noopener">Ryosuke Furuta</a>, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a><sup>✉</sup>',
       venue: 'The Thirteenth International Conference on Learning Representations (ICLR), 2025',
     },
     {
       title: 'Translating Mental Imaginations into Characters with Codebooks and Dynamics-Enhanced Decoding',
       authors:
-        'Jingyuan Li, <a href="https://victorywys.github.io/" target="_blank" rel="noopener">Yansen Wang</a>, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://recmind.cn/" target="_blank" rel="noopener">Dongsheng Li</a><sup>✉</sup>',
+        '<a href="https://christincha.github.io/" target="_blank" rel="noopener">Jingyuan Li</a>, <a href="https://victorywys.github.io/" target="_blank" rel="noopener">Yansen Wang</a>, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://recmind.cn/" target="_blank" rel="noopener">Dongsheng Li</a><sup>✉</sup>',
       venue: 'IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2025',
     },
     {
       title: 'Vision-Language Model Fine-Tuning via Simple Parameter-Efficient Modification',
       authors:
-        'Ming Li, Jike Zhong, Chenxin Li, Liuzhuozheng Li, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <strong><a href="https://www.ms.k.u-tokyo.ac.jp/sugi/" target="_blank" rel="noopener">Masashi Sugiyama</a></strong><sup>✉</sup>',
+        '<a href="#">Ming Li</a>, <a href="#">Jike Zhong</a>, <a href="https://chenxinli001.github.io/" target="_blank" rel="noopener">Chenxin Li</a>, <a href="#">Liuzhuozheng Li</a>, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://www.ms.k.u-tokyo.ac.jp/sugi/" target="_blank" rel="noopener">Masashi Sugiyama</a><sup>✉</sup>',
       venue: 'The Conference on Empirical Methods in Natural Language Processing (EMNLP), 2024',
     },
     {
       title: 'HandCLR: Pre-Training for 3D Hand Pose Estimation with Contrastive Learning on Large-Scale Hand Images in the Wild',
       authors:
-        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <strong><a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a></strong>, Mingfang Zhang, Yifei Huang, Ryosuke Furuta, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>',
+        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a>, <a href="https://mf-zhang.github.io/" target="_blank" rel="noopener">Mingfang Zhang</a>, <a href="https://hyf015.github.io/" target="_blank" rel="noopener">Yifei Huang</a>, <a href="https://rfuruta.github.io/" target="_blank" rel="noopener">Ryosuke Furuta</a>, <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>',
       venue: 'HANDS, European Conference on Computer Vision Workshop (ECCVW), 2024',
     },
     {
       title: 'Benchmarks and Challenges in Pose Estimation for Egocentric Hand Interactions with Objects',
       authors:
-        'Zicong Fan, <strong><a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a></strong>, Linlin Yang, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, Zhishan Zhou, Shihao Zhou, Jiajun Liang, Zhong Gao, Xuanyang Zhang, Xue Zhang, Fei Li, Zheng Liu, Feng Lu, Karim Abou Zeid, Bastian Leibe, Jeongwan On, Seungryul Baek, Aditya Prakash, Saurabh Gupta, Kun He, Yoichi Sato, Otmar Hilliges, Hyung Jin Chang, Angela Yao',
+        '<a href="#">Zicong Fan</a>, <a href="https://tkhkaeio.github.io/" target="_blank" rel="noopener">Takehiko Ohkawa</a>, <a href="#">Linlin Yang</a>, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, et al., <a href="#">Angela Yao</a>',
       venue: 'European Conference on Computer Vision (ECCV), 2024',
     },
     {
       title: 'Knowledge Condensation Distillation',
       authors:
-        'Chenxin Li, <a href="https://lmbxmu.github.io/" target="_blank" rel="noopener">Mingbao Lin</a>, Zhiyuan Ding, <strong>Nie Lin</strong>, Yihong Zhuang, <a href="https://huangyue05.github.io/" target="_blank" rel="noopener">Yue Huang</a>*, ...',
+        '<a href="https://chenxinli001.github.io/" target="_blank" rel="noopener">Chenxin Li</a>, <a href="https://lmbxmu.github.io/" target="_blank" rel="noopener">Mingbao Lin</a>, <a href="#">Zhiyuan Ding</a>, <strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="#">Yihong Zhuang</a>, <a href="https://huangyue05.github.io/" target="_blank" rel="noopener">Yue Huang</a>*, ...',
       venue: 'European Conference on Computer Vision (ECCV), 2022',
     },
     {
       title: 'EPIC-KITCHENS-100 Unsupervised Domain Adaptation Challenge for Action Recognition 2022 Technical Report',
       authors:
-        '<strong>Nie Lin</strong>, <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a><sup>✉</sup>',
+        '<strong><a href="https://lin-nie.github.io/" target="_blank" rel="noopener">Nie Lin</a></strong>, <a href="https://cai-mj.github.io/" target="_blank" rel="noopener">Minjie Cai</a><sup>✉</sup>',
       venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR-EPIC), 2022',
     },
   ],
@@ -161,6 +173,12 @@ const jp: SiteContent = {
   scholarshipLabel: '奨学金',
   scholarships: [
     {
+      text: '日本学術振興会特別研究員（DC2）',
+      url: 'https://www.jsps.go.jp/j-pd/',
+      explain: '日本学術振興会',
+      supp: '日本の博士課程学生にとって最も権威ある奨学金の一つ',
+    },
+    {
       text: '日本次世代研究者挑戦的研究プログラム（SPRING-GX）',
       url: 'https://www.cis-trans.jp/spring_gx/',
       explain: '3年間、博士課程の全額奨学金',
@@ -178,44 +196,56 @@ const jp: SiteContent = {
       explain: '中華人民共和国教育部',
       supp: '中国の上位0.1%の学生',
     },
-    { text: '嶺南学術奨学金（傑出した学術の代表）' },
-    { text: '2021年度 一等奨学金（学年GPA 1位、2021年）' },
-    { text: '高偉光企業奨学金（傑出した工事の代表）' },
-    { text: '2020年度 一等奨学金（学年GPA 1位、2020年）' },
-    { text: '2019年度 一等奨学金（学年GPA 1位、2019年）' },
   ],
   awardsLabel: '受賞',
   awards: [
-    'マイクロソフトアジア研究院 - 明日の星（Stars of Tomorrow）賞',
-    '優秀な学部生の論文',
-    '米国数学モデリングコンテスト国際2位',
-    '中国コンピュータ学会AI視覚アルゴリズム大会（順位13/2207）',
-    '中国人工知能電子デザインコンテスト3等賞',
-    'シンガポール国立大学名誉賞',
+    {
+      text: 'マイクロソフトアジア研究院 - 明日の星（Stars of Tomorrow）賞',
+      url: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
+    },
+    { text: '優秀な学部生の論文' },
   ],
 
   fundTitle: '研究ファンド',
   navFund: '研究ファンド',
   scientificFund: [
     {
-      name: '<a href="https://www.cis-trans.jp/spring_gx/" target="_blank" rel="noopener">JST 次世代研究者挑戦的研究プログラム (SPRING-GX)</a>',
-      match: 'JST SPRING Grant Number JPMJSP2108',
+      name: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-26KJ0863/" target="_blank" rel="noopener">自己視点映像・脳波マルチモーダルデータベースの構築と分析</a>',
+      match: 'JSPS 科研費 課題番号 26KJ0863（特別研究員奨励費）',
+      note: '2026.04.22–2028.03.31 · 1,400千円（直接経費：1,400千円）',
+      role: '代表',
     },
     {
-      name: '<a href="https://projectdb.jst.go.jp/grant/JST-PROJECT-23837230/" target="_blank" rel="noopener">人間中心のビジョン・メディア技術に関する国際共同研究ネットワークの構築</a>',
+      name: '<a href="https://www.cis-trans.jp/spring_gx/" target="_blank" rel="noopener">JST 次世代研究者挑戦的研究プログラム (SPRING-GX)</a>',
+      match: 'JST SPRING Grant Number JPMJSP2108',
+      role: '代表',
+    },
+    {
+      name: '<a href="https://bioskilldx.github.io/" target="_blank" rel="noopener">BioSkillDX：ライフサイエンス実験作業における暗黙知の獲得と作業支援</a>',
+      match: 'JST Kプログラム（経済安全保障重要技術育成プログラム）',
+      note: '2025年8月～2030年7月',
+      role: '参加',
+    },
+    {
+      name: '<a href="https://www.jst.go.jp/aspire/en/index.html" target="_blank" rel="noopener">人間中心のビジョン・メディア技術に関する国際共同研究ネットワークの構築</a>',
       match: 'JST ASPIRE Grant Number JPMJAP2303',
+      note: '2024年2月～2029年3月',
+      role: '参加',
     },
     {
       name: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K02956/" target="_blank" rel="noopener">映像に基づく人物行動理解の意味的AI深化</a>',
       match: 'JSPS KAKENHI Grant Number JP24K02956',
+      role: '参加',
     },
     {
       name: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-22KF0119/" target="_blank" rel="noopener">一人称視点教示映像のマルチモーダル解析による人物行動の学習と予測</a>',
       match: 'JSPS KAKENHI Grant Number JP22KF0119',
+      role: '参加',
     },
     {
       name: '<a href="https://www.jst.go.jp/kisoken/act-x/en/project/111F001/111F001_2020.html" target="_blank" rel="noopener">模倣型AIによる人間行動の理解</a>',
       match: 'JST ACT-X Grant Number JPMJAX2007',
+      role: '参加',
     },
   ],
 

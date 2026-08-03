@@ -8,11 +8,22 @@ const { content } = useLocale()
 const linksFor = (i: number) => {
   const pl = publicationLinks[i]
   const entries: { label: string; url: string }[] = []
-  if (pl.paper) entries.push({ label: content.value.paperLabel, url: pl.paper })
-  if (pl.project) entries.push({ label: content.value.projectLabel, url: pl.project })
+  if (pl.paper) {
+    const label = pl.paperComingSoon
+      ? `${content.value.paperLabel} (${content.value.comingSoonLabel})`
+      : content.value.paperLabel
+    entries.push({ label, url: pl.paper })
+  }
+  if (pl.project) {
+    const label = pl.projectComingSoon
+      ? `${content.value.projectLabel} (${content.value.comingSoonLabel})`
+      : content.value.projectLabel
+    entries.push({ label, url: pl.project })
+  }
   if (pl.code) entries.push({ label: content.value.codeLabel, url: pl.code })
   if (pl.video) entries.push({ label: content.value.videoLabel, url: pl.video })
   if (pl.openreview) entries.push({ label: content.value.openreviewLabel, url: pl.openreview })
+  if (pl.dataset) entries.push({ label: content.value.datasetLabel, url: pl.dataset })
   return entries
 }
 
@@ -25,14 +36,26 @@ const publicationsWithLinks = computed(() =>
   <section class="pubs">
     <h2 class="pubs__title">{{ content.publicationsTitle }}</h2>
     <article v-for="entry in publicationsWithLinks" :key="entry.pub.title" class="pubs__item">
-      <img class="pubs__image" :src="entry.meta.image" alt="" />
+      <video
+        v-if="entry.meta.teaserVideo"
+        class="pubs__image"
+        :src="entry.meta.teaserVideo"
+        autoplay
+        loop
+        muted
+        playsinline
+      ></video>
+      <img v-else class="pubs__image" :src="entry.meta.image" alt="" />
       <div class="pubs__body">
         <h3 class="pubs__paper-title">
           {{ entry.pub.title }}
           <span v-if="entry.meta.isNew" class="pubs__new">NEW</span>
         </h3>
         <p class="pubs__authors" v-html="entry.pub.authors"></p>
-        <p class="pubs__venue">{{ entry.pub.venue }}</p>
+        <p class="pubs__venue">
+          <img v-if="entry.meta.venueIcon" class="pubs__venue-icon" :src="entry.meta.venueIcon" alt="" />
+          {{ entry.pub.venue }}
+        </p>
         <p class="pubs__links">
           <template v-for="(link, j) in entry.links" :key="link.label">
             <span v-if="j > 0"> / </span><a :href="link.url" target="_blank" rel="noopener">{{ link.label }}</a>
@@ -73,6 +96,11 @@ const publicationsWithLinks = computed(() =>
   flex-shrink: 0;
 }
 
+video.pubs__image {
+  object-fit: contain;
+  background: var(--color-bg-subtle);
+}
+
 .pubs__paper-title {
   font-size: 0.875rem;
   font-weight: 700;
@@ -91,10 +119,22 @@ const publicationsWithLinks = computed(() =>
   margin: 0 0 0.3rem;
 }
 
+.pubs__authors :deep(a[href="https://lin-nie.github.io/"]) {
+  text-decoration: underline;
+}
+
 .pubs__venue {
   font-style: italic;
   color: var(--color-text-muted);
   margin: 0 0 0.4rem;
+}
+
+.pubs__venue-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  object-fit: contain;
+  vertical-align: -0.1rem;
+  margin-right: 0.3rem;
 }
 
 .pubs__links {

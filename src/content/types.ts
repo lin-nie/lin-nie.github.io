@@ -23,6 +23,7 @@ export interface ProfileContent {
     web: string
   }
   affiliations: AffiliationItem[]
+  cvNote: string
 }
 
 export interface NewsItem {
@@ -71,6 +72,8 @@ export interface SiteContent {
   codeLabel: string
   videoLabel: string
   openreviewLabel: string
+  datasetLabel: string
+  comingSoonLabel: string
 
   educationTitle: string
   navEducation: string
@@ -82,11 +85,11 @@ export interface SiteContent {
   scholarshipLabel: string
   scholarships: ScholarshipEntry[]
   awardsLabel: string
-  awards: string[]
+  awards: { text: string; url?: string }[]
 
   fundTitle: string
   navFund: string
-  scientificFund: { name: string; match: string }[]
+  scientificFund: { name: string; match: string; note?: string; role: string }[]
 
   footerPeriod: string
   lastUpdatedLabel: string
