@@ -6,7 +6,10 @@ const zh: SiteContent = {
   profile: {
     name: '林 涅',
     degree: '博士 (D2)',
-    photoCaption: '拍摄于 2025 年 11 月，美国，夏威夷 🌺',
+    photoCaption: '拍摄于 2026 年 8 月，CMU 🤖，匹兹堡 ⚙️，美国',
+    easterEggPhotoCaption: '拍摄于 2025 年 11 月，美国，夏威夷 🌺',
+    easterEggPhotoSubtitle: '（我的人生照片）',
+    easterEggHint: '🥚 点击查看彩蛋',
     bio: `我目前是<a href="https://www.u-tokyo.ac.jp/zh/index.html" target="_blank" rel="noopener">东京大学</a>
       <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">佐藤洋一</a>教授与
       <a href="https://www.cmu.edu/" target="_blank" rel="noopener">卡内基梅隆大学</a>
@@ -45,7 +48,7 @@ const zh: SiteContent = {
   newsShowAll: '查看全部',
   newsShowLess: '收起',
   news: [
-  { date: "2026.08", html: "我已经开启了<a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">匹兹堡</a>之旅，开始在<a href=\"https://www.cmu.edu/\">卡内基梅隆大学</a><a href=\"https://www.ri.cmu.edu/\">机器人研究所（Robotics Institute）</a>展开学习，接受 <a href=\"https://kriskitani.github.io/\">Kris Kitani</a> 教授的指导。" },
+  { date: "2026.08", html: "开启在<a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">匹兹堡</a>的新旅程，我进入<a href=\"https://www.cmu.edu/\">卡内基梅隆大学</a><a href=\"https://www.ri.cmu.edu/\">机器人研究所（Robotics Institute）</a>，跟随 <a href=\"https://kriskitani.github.io/\">Kris Kitani</a> 教授学习。这座三河交汇、昔日钢铁之城⚙️如今跳动着机器人🤖脉搏的城市，感觉正是为世界未来筑梦的绝佳之地。" },
   { date: "2026.04", html: "恭喜！我获得了<a href=\"https://www.jsps.go.jp/english/e-pd/\">日本学术振兴会特别研究员（DC2）</a>资助，这是日本博士生所能获得的最具声望的奖学金之一。" },
   { date: "2026.01", html: "恭喜！一篇论文被 <a href=\"https://iclr.cc/\">ICLR 2026</a> 接收，Openreview已上线。 <a href=\"https://openreview.net/forum?id=DGcoJINQ7P\">[Openreview]</a>" },
   { date: "2025.08", html: "在 <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/' target=\"_blank\">微软亚洲研究院（Microsoft Research Asia）</a> 实习期间，因卓越贡献荣获 <a href=\"https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-activity-7348623900131368961-Ec9R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg\">“Stars of Tomorrow”</a> 奖，感谢导师与团队的支持！" },

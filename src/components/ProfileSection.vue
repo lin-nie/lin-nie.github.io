@@ -1,26 +1,32 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import { useLocale } from '../content'
-import profilePhoto from '../assets/profile-photo.jpg'
+import profilePhotoPro from '../assets/profile-photo-pro.jpg'
+import profilePhotoEasterEgg from '../assets/profile-photo.jpg'
 import { affiliationLogos, affiliationLogoScale } from '../content/affiliationLinks'
 import { socialIcons } from '../content/socialLinks'
 
 const { content } = useLocale()
+const showEasterEgg = ref(false)
 </script>
 
 <template>
   <section class="profile">
     <div class="profile__layout">
-      <div class="profile__main">
-        <h1 class="profile__name">{{ content.profile.name }}</h1>
-        <p class="profile__degree">{{ content.profile.degree }}</p>
-
-        <p class="profile__bio" v-html="content.profile.bio"></p>
-        <p class="profile__bio" v-html="content.profile.researchStatement"></p>
-      </div>
-
       <div class="profile__photo-wrap">
-        <img class="profile__photo" :src="profilePhoto" :alt="content.profile.name" />
-        <p class="profile__caption">{{ content.profile.photoCaption }}</p>
+        <div class="profile__photo-frame" @click="showEasterEgg = !showEasterEgg">
+          <div class="profile__photo-flip" :class="{ 'profile__photo-flip--flipped': showEasterEgg }">
+            <img class="profile__photo profile__photo--front" :src="profilePhotoPro" :alt="content.profile.name" />
+            <img class="profile__photo profile__photo--back" :src="profilePhotoEasterEgg" :alt="content.profile.name" />
+          </div>
+          <span class="profile__photo-hint">{{ content.profile.easterEggHint }}</span>
+        </div>
+        <p class="profile__caption">
+          {{ showEasterEgg ? content.profile.easterEggPhotoCaption : content.profile.photoCaption }}
+        </p>
+        <p v-if="showEasterEgg" class="profile__caption profile__caption--subtitle">
+          {{ content.profile.easterEggPhotoSubtitle }}
+        </p>
 
         <div class="profile__socials">
           <a
@@ -36,6 +42,14 @@ const { content } = useLocale()
           </a>
         </div>
         <p class="profile__cv-note" v-html="content.profile.cvNote"></p>
+      </div>
+
+      <div class="profile__main">
+        <h1 class="profile__name">{{ content.profile.name }}</h1>
+        <p class="profile__degree">{{ content.profile.degree }}</p>
+
+        <p class="profile__bio" v-html="content.profile.bio"></p>
+        <p class="profile__bio" v-html="content.profile.researchStatement"></p>
       </div>
     </div>
 
@@ -103,11 +117,64 @@ const { content } = useLocale()
   width: 16rem;
 }
 
-.profile__photo {
-  width: 100%;
+.profile__photo-frame {
+  position: relative;
+  cursor: pointer;
   aspect-ratio: 1 / 1;
+  perspective: 1600px;
+}
+
+.profile__photo-flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.profile__photo-flip--flipped {
+  transform: rotateY(180deg);
+}
+
+.profile__photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 10px;
+  display: block;
+  backface-visibility: hidden;
+}
+
+.profile__photo--back {
+  transform: rotateY(180deg);
+}
+
+.profile__photo-hint {
+  position: absolute;
+  inset: auto 0 0.6rem 0;
+  margin: 0 auto;
+  width: fit-content;
+  max-width: calc(100% - 1.2rem);
+  padding: 0.3rem 0.7rem;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.65);
+  color: #fff;
+  font-size: 0.72rem;
+  text-align: center;
+  white-space: nowrap;
+  opacity: 0;
+  transform: translateY(4px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+  pointer-events: none;
+}
+
+.profile__photo-frame:hover .profile__photo-hint {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .profile__name {
@@ -127,7 +194,12 @@ const { content } = useLocale()
   margin: 0.5rem 0 0;
   color: var(--color-text-muted);
   text-align: center;
-  white-space: nowrap;
+}
+
+.profile__caption--subtitle {
+  margin-top: 0.15rem;
+  font-size: 0.8rem;
+  font-style: italic;
 }
 
 .profile__socials {
@@ -246,7 +318,7 @@ const { content } = useLocale()
 
 @media (max-width: 42rem) {
   .profile__layout {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 
   .profile__photo-wrap {

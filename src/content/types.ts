@@ -8,6 +8,9 @@ export interface ProfileContent {
   name: string
   degree: string
   photoCaption: string
+  easterEggPhotoCaption: string
+  easterEggPhotoSubtitle: string
+  easterEggHint: string
   bio: string
   researchStatement: string
   contact: {

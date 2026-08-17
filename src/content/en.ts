@@ -6,7 +6,10 @@ const en: SiteContent = {
   profile: {
     name: 'Nie (Elon) Lin',
     degree: 'Ph.D. Student (D2)',
-    photoCaption: 'Photo taken in Nov. 2025, Hawaii 🌺, USA',
+    photoCaption: 'Photo taken in Aug. 2026, CMU 🤖, Pittsburgh ⚙️, USA',
+    easterEggPhotoCaption: 'Photo taken in Nov. 2025, Hawaii 🌺, USA',
+    easterEggPhotoSubtitle: '(My life photo)',
+    easterEggHint: '🥚 Click for an easter egg',
     bio: `I am a second-year PhD student (D2) co-advised by Prof.
       <a href="https://sites.google.com/ut-vision.org/ysato/" target="_blank" rel="noopener">Yoichi Sato</a>
       at <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">the University of Tokyo</a>
@@ -48,7 +51,7 @@ const en: SiteContent = {
   newsShowAll: 'Show all',
   newsShowLess: 'Show less',
   news: [
-  { date: "2026.08", html: "I have started my journey in <a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">Pittsburgh</a>, beginning my studies at the <a href=\"https://www.ri.cmu.edu/\">Robotics Institute</a>, <a href=\"https://www.cmu.edu/\">Carnegie Mellon University</a>, under the supervision of Prof. <a href=\"https://kriskitani.github.io/\">Kris Kitani</a>." },
+  { date: "2026.08", html: "Starting my journey in <a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">Pittsburgh</a>, I've begun my studies at the <a href=\"https://www.ri.cmu.edu/\">Robotics Institute</a>, <a href=\"https://www.cmu.edu/\">Carnegie Mellon University</a>, under the supervision of Prof. <a href=\"https://kriskitani.github.io/\">Kris Kitani</a>. Here, where three rivers meet and the old steel city ⚙️ now beats with the pulse of robotics 🤖, feels like exactly the right place to build the world's future." },
   { date: "2026.04", html: "Congratulations! I have been awarded the <a href=\"https://www.jsps.go.jp/english/e-pd/\">JSPS Research Fellowship for Young Scientists (DC2)</a>, one of the most prestigious fellowships for doctoral students in Japan." },
   { date: "2026.01", html: "Congratulations! One papers were accepted by <a href=\"https://iclr.cc/\">ICLR 2026</a>. Openreview is available. <a href=\"https://openreview.net/forum?id=DGcoJINQ7P\">[Openreview]</a>" },
   { date: "2025.08", html: "Honored with the <a href=\"https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-activity-7348623900131368961-Ec9R/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg\">“Stars of Tomorrow”</a> award (the highest honor) at <a href='https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/' target=\"_blank\">Microsoft Research Asia</a> -- thanks to my mentors and teammates for their support!" },
