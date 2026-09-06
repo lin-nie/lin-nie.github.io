@@ -42,12 +42,22 @@ const zh: SiteContent = {
       { name: '索尼 R&D', role: '研究实习 2023', logoKey: 'sony' },
     ],
     cvNote: '我的简历可以从<a href="#" target="_blank" rel="noopener">这里</a>下载。',
+    internshipNote:
+      '我正在积极寻找 2027 年 Research Scientist 暑期实习机会<br />——不限工作地点，欢迎<a href="mailto:nielin@iis.u-tokyo.ac.jp">联系我</a>！',
+    socialHints: {
+      github: '看看我的代码',
+      scholar: '了解我',
+      linkedin: '与我联系',
+      x: '关注我',
+    },
   },
   newsTitle: '消息',
   navNews: '消息',
   newsShowAll: '查看全部',
   newsShowLess: '收起',
   news: [
+  { date: "2026.09", html: "好消息！我将出席 <a href=\"https://2026.ieee-iros.org/\">IROS 2026</a>——匹兹堡见。" },
+  { date: "2026.08", html: "在第七届 <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7498943727135150080/\">CMU Robot Learning Workshop</a> 上度过了愉快的一天，我做了一个关于 SiMDex 的闪电演讲——感谢 <a href=\"https://www.ri.cmu.edu/ri-faculty/david-held/\">David Held</a> 教授和 Madhavan Iyengar 的组织！" },
   { date: "2026.08", html: "开启在<a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">匹兹堡</a>的新旅程，我进入<a href=\"https://www.cmu.edu/\">卡内基梅隆大学</a><a href=\"https://www.ri.cmu.edu/\">机器人研究所（Robotics Institute）</a>，跟随 <a href=\"https://kriskitani.github.io/\">Kris Kitani</a> 教授学习。这座三河交汇、昔日钢铁之城⚙️如今跳动着机器人🤖脉搏的城市，感觉正是为世界未来筑梦的绝佳之地。" },
   { date: "2026.04", html: "恭喜！我获得了<a href=\"https://www.jsps.go.jp/english/e-pd/\">日本学术振兴会特别研究员（DC2）</a>资助，这是日本博士生所能获得的最具声望的奖学金之一。" },
   { date: "2026.01", html: "恭喜！一篇论文被 <a href=\"https://iclr.cc/\">ICLR 2026</a> 接收，Openreview已上线。 <a href=\"https://openreview.net/forum?id=DGcoJINQ7P\">[Openreview]</a>" },
@@ -142,14 +152,25 @@ const zh: SiteContent = {
   educationTitle: '教育',
   navEducation: '教育',
   supervisedByLabel: '指导教授：',
+  supportedByLabel: '资助方：',
+  thesisLabel: '学位论文：',
+  andWord: '和',
   education: [
     {
-      period: '2023.4 – 至今',
+      period: '2025.4 – 至今',
       degree: '博士课程',
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
-      department: '交叉信息学，跨学科交叉信息学院',
-      university: '东京大学',
+      mentorTag: 'UTokyo',
+      mentor2: 'Kris Kitani',
+      mentor2Url: 'https://kriskitani.github.io/',
+      mentor2Tag: 'CMU',
+      institution:
+        '<a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">生产技术研究所（Institute of Industrial Science）</a>，<a href="https://www.u-tokyo.ac.jp/zh/index.html" target="_blank" rel="noopener">东京大学</a>（UTokyo, IIS）',
+      institution2:
+        '<a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">机器人研究所（Robotics Institute）</a>，<a href="https://www.cmu.edu/" target="_blank" rel="noopener">卡内基梅隆大学</a>（CMU, RI）',
+      support: '日本学术振兴会特别研究员（DC2）',
+      supportUrl: 'https://www.jsps.go.jp/english/e-pd/',
     },
     {
       period: '2023.4 – 2025.3',
@@ -157,8 +178,10 @@ const zh: SiteContent = {
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
       thesis: '基于对比学习的野外大规模手部图像三维手势估计预训练方法',
-      department: '交叉信息学，跨学科交叉信息学院',
-      university: '东京大学',
+      institution:
+        '<a href="https://www.iii.u-tokyo.ac.jp/" target="_blank" rel="noopener">跨学科交叉信息学院（GSII）</a>，<a href="https://www.u-tokyo.ac.jp/zh/index.html" target="_blank" rel="noopener">东京大学</a>（UTokyo, GSII）',
+      support: '东京大学奖学金',
+      supportUrl: 'https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html',
     },
   ],
 

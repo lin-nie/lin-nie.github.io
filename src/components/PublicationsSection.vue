@@ -24,6 +24,7 @@ const linksFor = (i: number) => {
   if (pl.video) entries.push({ label: content.value.videoLabel, url: pl.video })
   if (pl.openreview) entries.push({ label: content.value.openreviewLabel, url: pl.openreview })
   if (pl.dataset) entries.push({ label: content.value.datasetLabel, url: pl.dataset })
+  if (pl.extraLinks) entries.push(...pl.extraLinks)
   return entries
 }
 

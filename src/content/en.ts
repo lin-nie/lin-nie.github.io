@@ -45,12 +45,22 @@ const en: SiteContent = {
       { name: 'Sony R&D', role: "Research Intern '23", logoKey: 'sony' },
     ],
     cvNote: 'My CV can be downloaded from <a href="#" target="_blank" rel="noopener">here</a>.',
+    internshipNote:
+      'I am actively looking for a summer internship as a Research Scientist in 2027<br />— open to any location, feel free to <a href="mailto:nielin@iis.u-tokyo.ac.jp">reach&nbsp;out</a>!',
+    socialHints: {
+      github: 'See my code',
+      scholar: 'Know me',
+      linkedin: 'Connect with me',
+      x: 'Follow me',
+    },
   },
   newsTitle: 'News',
   navNews: 'News',
   newsShowAll: 'Show all',
   newsShowLess: 'Show less',
   news: [
+  { date: "2026.09", html: "Good News! I will be attending <a href=\"https://2026.ieee-iros.org/\">IROS 2026</a> — see you in Pittsburgh." },
+  { date: "2026.08", html: "Had a great time at the <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7498943727135150080/\">7th CMU Robot Learning Workshop</a>, where I gave a lightning talk on SiMDex — thanks to Prof. <a href=\"https://www.ri.cmu.edu/ri-faculty/david-held/\">David Held</a> and Madhavan Iyengar for organizing!" },
   { date: "2026.08", html: "Starting my journey in <a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">Pittsburgh</a>, I've begun my studies at the <a href=\"https://www.ri.cmu.edu/\">Robotics Institute</a>, <a href=\"https://www.cmu.edu/\">Carnegie Mellon University</a>, under the supervision of Prof. <a href=\"https://kriskitani.github.io/\">Kris Kitani</a>. Here, where three rivers meet and the old steel city ⚙️ now beats with the pulse of robotics 🤖, feels like exactly the right place to build the world's future." },
   { date: "2026.04", html: "Congratulations! I have been awarded the <a href=\"https://www.jsps.go.jp/english/e-pd/\">JSPS Research Fellowship for Young Scientists (DC2)</a>, one of the most prestigious fellowships for doctoral students in Japan." },
   { date: "2026.01", html: "Congratulations! One papers were accepted by <a href=\"https://iclr.cc/\">ICLR 2026</a>. Openreview is available. <a href=\"https://openreview.net/forum?id=DGcoJINQ7P\">[Openreview]</a>" },
@@ -145,14 +155,25 @@ const en: SiteContent = {
   educationTitle: 'Education',
   navEducation: 'Education',
   supervisedByLabel: 'Supervised by Prof.',
+  supportedByLabel: 'Supported by',
+  thesisLabel: 'Thesis:',
+  andWord: 'and',
   education: [
     {
-      period: '2023.4 – Now',
+      period: '2025.4 – Now',
       degree: 'Ph.D. Course',
       mentor: 'Yoichi Sato',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
-      department: 'Interdisciplinary Information Studies, Graduate School of Interdisciplinary Information Studies (GSII)',
-      university: 'The University of Tokyo (UTokyo)',
+      mentorTag: 'UTokyo',
+      mentor2: 'Kris Kitani',
+      mentor2Url: 'https://kriskitani.github.io/',
+      mentor2Tag: 'CMU',
+      institution:
+        '<a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The Institute of Industrial Science</a>, <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The University of Tokyo</a> (UTokyo, IIS)',
+      institution2:
+        '<a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a>, <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a> (CMU, RI)',
+      support: 'JSPS Research Fellowship for Young Scientists (DC2)',
+      supportUrl: 'https://www.jsps.go.jp/english/e-pd/',
     },
     {
       period: '2023.4 – 2025.3',
@@ -160,8 +181,10 @@ const en: SiteContent = {
       mentor: 'Yoichi Sato',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
       thesis: 'Pre-Training for 3D Hand Pose Estimation with Contrastive Learning on Large-Scale Hand Images in the Wild',
-      department: 'Interdisciplinary Information Studies, Graduate School of Interdisciplinary Information Studies (GSII)',
-      university: 'The University of Tokyo (UTokyo)',
+      institution:
+        '<a href="https://www.iii.u-tokyo.ac.jp/" target="_blank" rel="noopener">Graduate School of Interdisciplinary Information Studies</a>, <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The University of Tokyo</a> (UTokyo, GSII)',
+      support: 'The University of Tokyo Fellowship',
+      supportUrl: 'https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html',
     },
   ],
 

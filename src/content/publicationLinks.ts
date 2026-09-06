@@ -24,6 +24,7 @@ export interface PublicationLinks {
   openreview?: string
   dataset?: string
   venueIcon?: string
+  extraLinks?: { label: string; url: string }[]
 }
 
 // Ordered newest-first, matching each language's `publications` array.
@@ -41,8 +42,8 @@ export const publicationLinks: PublicationLinks[] = [
     isNew: true,
     paper: 'https://arxiv.org/abs/2506.01353',
     project: 'https://lin-nie.github.io/',
-    projectComingSoon: true,
     dataset: 'https://huggingface.co/datasets/ut-vision/EgoBrain',
+    extraLinks: [{ label: 'EgoBrain-Mini', url: 'https://huggingface.co/datasets/ut-vision/EgoBrain-Mini' }],
     openreview: 'https://openreview.net/forum?id=DGcoJINQ7P',
     venueIcon: iclrIcon,
   },

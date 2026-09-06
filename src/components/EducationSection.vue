@@ -12,11 +12,17 @@ const { content } = useLocale()
       <div class="education__body">
         <p class="education__degree">
           {{ entry.degree }} · {{ content.supervisedByLabel }}
-          <a :href="entry.mentorUrl" target="_blank" rel="noopener">{{ entry.mentor }}</a>
+          <a :href="entry.mentorUrl" target="_blank" rel="noopener">{{ entry.mentor }}</a><span v-if="entry.mentorTag"> ({{ entry.mentorTag }})</span><template v-if="entry.mentor2"> {{ content.andWord }} <a :href="entry.mentor2Url" target="_blank" rel="noopener">{{ entry.mentor2 }}</a><span v-if="entry.mentor2Tag"> ({{ entry.mentor2Tag }})</span></template>
         </p>
-        <p v-if="entry.thesis" class="education__thesis">{{ entry.thesis }}</p>
-        <p class="education__dept">{{ entry.department }}</p>
-        <p class="education__univ">{{ entry.university }}</p>
+        <p v-if="entry.thesis" class="education__thesis">
+          <span class="education__thesis-label">{{ content.thesisLabel }}</span> {{ entry.thesis }}
+        </p>
+        <p class="education__univ" v-html="entry.institution"></p>
+        <p v-if="entry.institution2" class="education__univ" v-html="entry.institution2"></p>
+        <p v-if="entry.support" class="education__support">
+          {{ content.supportedByLabel }}
+          <a :href="entry.supportUrl" target="_blank" rel="noopener">{{ entry.support }}</a>
+        </p>
       </div>
     </div>
   </section>
@@ -61,9 +67,18 @@ const { content } = useLocale()
   font-style: italic;
 }
 
-.education__dept,
+.education__thesis-label {
+  font-style: normal;
+  color: var(--color-text-muted);
+}
+
 .education__univ {
   margin: 0;
+  color: var(--color-text-muted);
+}
+
+.education__support {
+  margin: 0.3rem 0 0;
   color: var(--color-text-muted);
 }
 

@@ -27,6 +27,13 @@ export interface ProfileContent {
   }
   affiliations: AffiliationItem[]
   cvNote: string
+  internshipNote: string
+  socialHints: {
+    github: string
+    scholar: string
+    linkedin: string
+    x: string
+  }
 }
 
 export interface NewsItem {
@@ -52,9 +59,15 @@ export interface EducationEntry {
   degree: string
   mentor: string
   mentorUrl: string
+  mentorTag?: string
+  mentor2?: string
+  mentor2Url?: string
+  mentor2Tag?: string
   thesis?: string
-  department: string
-  university: string
+  institution: string
+  institution2?: string
+  support?: string
+  supportUrl?: string
 }
 
 export interface SiteContent {
@@ -81,6 +94,9 @@ export interface SiteContent {
   educationTitle: string
   navEducation: string
   supervisedByLabel: string
+  supportedByLabel: string
+  thesisLabel: string
+  andWord: string
   education: EducationEntry[]
 
   honorsTitle: string

@@ -39,6 +39,7 @@ const showEasterEgg = ref(false)
             :style="{ '--brand-color': icon.brandColor }"
           >
             <svg viewBox="0 0 24 24" aria-hidden="true"><path :d="icon.path" /></svg>
+            <span class="profile__social-hint">{{ content.profile.socialHints[icon.key] }}</span>
           </a>
         </div>
         <p class="profile__cv-note" v-html="content.profile.cvNote"></p>
@@ -52,6 +53,8 @@ const showEasterEgg = ref(false)
         <p class="profile__bio" v-html="content.profile.researchStatement"></p>
       </div>
     </div>
+
+    <p class="profile__internship-note" v-html="content.profile.internshipNote"></p>
 
     <div class="profile__affiliations">
       <div v-for="a in content.profile.affiliations" :key="a.name" class="profile__affiliation-item">
@@ -210,6 +213,7 @@ const showEasterEgg = ref(false)
 }
 
 .profile__social-icon {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -221,6 +225,30 @@ const showEasterEgg = ref(false)
     background-color 0.2s ease,
     transform 0.2s ease,
     box-shadow 0.2s ease;
+}
+
+.profile__social-hint {
+  position: absolute;
+  bottom: calc(100% + 0.5rem);
+  left: 50%;
+  transform: translate(-50%, 4px);
+  padding: 0.25rem 0.6rem;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+  pointer-events: none;
+}
+
+.profile__social-icon:hover .profile__social-hint {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 
 .profile__social-icon svg {
@@ -274,6 +302,14 @@ const showEasterEgg = ref(false)
 
 .profile__contact dd {
   margin: 0;
+}
+
+.profile__internship-note {
+  margin: var(--space-4) 0 0;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #c0392b;
 }
 
 .profile__affiliations {

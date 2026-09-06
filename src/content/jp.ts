@@ -45,12 +45,22 @@ const jp: SiteContent = {
       { name: 'ソニー R&D', role: '研究インターン 2023', logoKey: 'sony' },
     ],
     cvNote: '私の履歴書は<a href="#" target="_blank" rel="noopener">こちら</a>からダウンロードできます。',
+    internshipNote:
+      '2027年のResearch Scientist夏季インターンシップを積極的に探しています<br />——勤務地は問いません、お気軽に<a href="mailto:nielin@iis.u-tokyo.ac.jp">ご連絡ください</a>！',
+    socialHints: {
+      github: '私のコードを見る',
+      scholar: '私を知る',
+      linkedin: 'つながりましょう',
+      x: 'フォローする',
+    },
   },
   newsTitle: 'ニュース',
   navNews: 'ニュース',
   newsShowAll: 'すべて表示',
   newsShowLess: '折りたたむ',
   news: [
+  { date: "2026.09", html: "朗報です！<a href=\"https://2026.ieee-iros.org/\">IROS 2026</a>に参加します——ピッツバーグでお会いしましょう。" },
+  { date: "2026.08", html: "第7回<a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7498943727135150080/\">CMU Robot Learning Workshop</a>で素敵な時間を過ごしました。SiMDexについてライトニングトークを行いました——<a href=\"https://www.ri.cmu.edu/ri-faculty/david-held/\">David Held</a>教授とMadhavan Iyengarさんの企画に感謝します！" },
   { date: "2026.08", html: "<a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">ピッツバーグ</a>で新たな一歩を踏み出し、<a href=\"https://www.cmu.edu/\">カーネギーメロン大学</a><a href=\"https://www.ri.cmu.edu/\">ロボティクス研究所</a>にて<a href=\"https://kriskitani.github.io/\">Kris Kitani</a>教授のご指導のもと研究をスタートしました。三本の川が交わり、かつての鉄鋼の街⚙️がいまロボティクス🤖の鼓動を刻むこの場所は、世界の未来を築くのにふさわしい地だと感じています。" },
   { date: "2026.04", html: "おめでとうございます！<a href=\"https://www.jsps.go.jp/j-pd/\">日本学術振興会特別研究員（DC2）</a>に採択されました。日本の博士課程学生にとって最も権威ある奨学金の一つです。" },
   { date: "2026.01", html: "おめでとうございます！1本の論文が <a href=\"https://iclr.cc/\">ICLR 2026</a> に採択され、Openreviewが公開されました。 <a href=\"https://openreview.net/forum?id=DGcoJINQ7P\">[Openreview]</a>" },
@@ -145,14 +155,25 @@ const jp: SiteContent = {
   educationTitle: '学歴',
   navEducation: '学歴',
   supervisedByLabel: '指導教員：',
+  supportedByLabel: '支援：',
+  thesisLabel: '学位論文：',
+  andWord: 'と',
   education: [
     {
-      period: '2023.4 – 現在',
+      period: '2025.4 – 現在',
       degree: '博士課程',
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
-      department: '学際情報学、学際情報学府',
-      university: '東京大学',
+      mentorTag: 'UTokyo',
+      mentor2: 'Kris Kitani',
+      mentor2Url: 'https://kriskitani.github.io/',
+      mentor2Tag: 'CMU',
+      institution:
+        '<a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">生産技術研究所（Institute of Industrial Science）</a>、<a href="https://www.u-tokyo.ac.jp/ja/index.html" target="_blank" rel="noopener">東京大学</a>（UTokyo, IIS）',
+      institution2:
+        '<a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">ロボティクス研究所（Robotics Institute）</a>、<a href="https://www.cmu.edu/" target="_blank" rel="noopener">カーネギーメロン大学</a>（CMU, RI）',
+      support: '日本学術振興会特別研究員（DC2）',
+      supportUrl: 'https://www.jsps.go.jp/english/e-pd/',
     },
     {
       period: '2023.4 – 2025.3',
@@ -160,8 +181,10 @@ const jp: SiteContent = {
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
       thesis: '大量かつ多様な手画像を用いた対照学習による3次元手指姿勢推定の事前学習',
-      department: '学際情報学、学際情報学府',
-      university: '東京大学',
+      institution:
+        '<a href="https://www.iii.u-tokyo.ac.jp/" target="_blank" rel="noopener">学際情報学府（GSII）</a>、<a href="https://www.u-tokyo.ac.jp/ja/index.html" target="_blank" rel="noopener">東京大学</a>（UTokyo, GSII）',
+      support: '東京大学フェローシップ',
+      supportUrl: 'https://www.u-tokyo.ac.jp/en/prospective-students/fellowship.html',
     },
   ],
 
