@@ -70,6 +70,8 @@ export interface EducationEntry {
   supportLabel?: string
   support?: string
   supportUrl?: string
+  support2?: string
+  support2Url?: string
 }
 
 export interface SiteContent {

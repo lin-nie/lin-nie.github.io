@@ -20,8 +20,11 @@ const { content } = useLocale()
         <p class="education__univ" v-html="entry.institution"></p>
         <p v-if="entry.institution2" class="education__univ" v-html="entry.institution2"></p>
         <p v-if="entry.support" class="education__support">
-          {{ entry.supportLabel ?? content.supportedByLabel }}
-          <a :href="entry.supportUrl" target="_blank" rel="noopener">{{ entry.support }}</a>
+          <span class="education__support-label">{{ entry.supportLabel ?? content.supportedByLabel }}</span>
+          <span class="education__support-links">
+            <a :href="entry.supportUrl" target="_blank" rel="noopener">{{ entry.support }}</a>
+            <a v-if="entry.support2" :href="entry.support2Url" target="_blank" rel="noopener">{{ entry.support2 }}</a>
+          </span>
         </p>
       </div>
     </div>
@@ -78,8 +81,20 @@ const { content } = useLocale()
 }
 
 .education__support {
+  display: flex;
+  gap: 0.25em;
   margin: 0.3rem 0 0;
   color: var(--color-text-muted);
+}
+
+.education__support-label {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.education__support-links {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 32rem) {

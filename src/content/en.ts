@@ -172,8 +172,10 @@ const en: SiteContent = {
         '<a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The Institute of Industrial Science</a>, <a href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">The University of Tokyo</a> (UTokyo, IIS)',
       institution2:
         '<a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">Robotics Institute</a>, <a href="https://www.cmu.edu/" target="_blank" rel="noopener">Carnegie Mellon University</a> (CMU, RI)',
-      support: 'JSPS Research Fellowship for Young Scientists (DC2)',
+      support: 'Research Fellowship of the Japan Society for the Promotion of Science (JSPS DC)',
       supportUrl: 'https://www.jsps.go.jp/english/e-pd/',
+      support2: 'Adopting Sustainable Partnerships for Innovative Research Ecosystem (JST ASPIRE)',
+      support2Url: 'https://www.jst.go.jp/aspire/en/index.html',
     },
     {
       period: '2024.6 – 2025.5',
@@ -183,7 +185,7 @@ const en: SiteContent = {
       mentorUrl: 'https://recmind.cn/',
       thesis: 'EgoBrain Project',
       institution:
-        '<a href="https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/" target="_blank" rel="noopener">Shanghai AI/ML Group</a>, <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank" rel="noopener">Microsoft Research Asia</a> (MSRA)',
+        '<a href="https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/" target="_blank" rel="noopener">Shanghai AI/ML Group</a>, <a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="noopener">Microsoft Research</a> (MSR)',
       supportLabel: 'Received',
       support: "the 'Stars of Tomorrow' Award",
       supportUrl: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',

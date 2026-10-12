@@ -169,8 +169,10 @@ const zh: SiteContent = {
         '<a href="https://www.iis.u-tokyo.ac.jp/en/" target="_blank" rel="noopener">生产技术研究所（Institute of Industrial Science）</a>，<a href="https://www.u-tokyo.ac.jp/zh/index.html" target="_blank" rel="noopener">东京大学</a>（UTokyo, IIS）',
       institution2:
         '<a href="https://www.ri.cmu.edu/" target="_blank" rel="noopener">机器人研究所（Robotics Institute）</a>，<a href="https://www.cmu.edu/" target="_blank" rel="noopener">卡内基梅隆大学</a>（CMU, RI）',
-      support: '日本学术振兴会特别研究员（DC2）',
+      support: '日本学术振兴会特别研究员（JSPS DC）',
       supportUrl: 'https://www.jsps.go.jp/english/e-pd/',
+      support2: '先端国际共同研究推进事业（JST ASPIRE）',
+      support2Url: 'https://www.jst.go.jp/aspire/en/index.html',
     },
     {
       period: '2024.6 – 2025.5',
@@ -180,7 +182,7 @@ const zh: SiteContent = {
       mentorUrl: 'https://recmind.cn/',
       thesis: 'EgoBrain 项目',
       institution:
-        '<a href="https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/" target="_blank" rel="noopener">上海 AI/ML 组</a>，<a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" target="_blank" rel="noopener">微软亚洲研究院</a>（MSRA）',
+        '<a href="https://www.microsoft.com/en-us/research/group/shanghai-ai-ml-group/" target="_blank" rel="noopener">上海 AI/ML 组</a>，<a href="https://www.microsoft.com/en-us/research/" target="_blank" rel="noopener">微软研究院</a>（MSR）',
       supportLabel: '获奖：',
       support: '明日之星（Stars of Tomorrow）奖',
       supportUrl: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
