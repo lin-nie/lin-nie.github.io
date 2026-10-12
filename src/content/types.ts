@@ -56,7 +56,8 @@ export interface ScholarshipEntry {
 
 export interface EducationEntry {
   period: string
-  degree: string
+  degree?: string
+  mentorLabel?: string
   mentor: string
   mentorUrl: string
   mentorTag?: string
@@ -66,6 +67,7 @@ export interface EducationEntry {
   thesis?: string
   institution: string
   institution2?: string
+  supportLabel?: string
   support?: string
   supportUrl?: string
 }

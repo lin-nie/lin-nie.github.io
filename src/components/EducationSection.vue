@@ -11,8 +11,8 @@ const { content } = useLocale()
       <span class="education__period">{{ entry.period }}</span>
       <div class="education__body">
         <p class="education__degree">
-          {{ entry.degree }} · {{ content.supervisedByLabel }}
-          <a :href="entry.mentorUrl" target="_blank" rel="noopener">{{ entry.mentor }}</a><span v-if="entry.mentorTag"> ({{ entry.mentorTag }})</span><template v-if="entry.mentor2"> {{ content.andWord }} <a :href="entry.mentor2Url" target="_blank" rel="noopener">{{ entry.mentor2 }}</a><span v-if="entry.mentor2Tag"> ({{ entry.mentor2Tag }})</span></template>
+          <template v-if="entry.degree">{{ entry.degree }} · </template>{{ entry.mentorLabel ?? content.supervisedByLabel }}
+          <a :href="entry.mentorUrl" target="_blank" rel="noopener">{{ entry.mentor }}</a><span v-if="entry.mentorTag"> ({{ entry.mentorTag }})</span><template v-if="entry.mentor2">{{ ' ' }}{{ content.andWord }} <a :href="entry.mentor2Url" target="_blank" rel="noopener">{{ entry.mentor2 }}</a><span v-if="entry.mentor2Tag"> ({{ entry.mentor2Tag }})</span></template>
         </p>
         <p v-if="entry.thesis" class="education__thesis">
           <span class="education__thesis-label">{{ content.thesisLabel }}</span> {{ entry.thesis }}
@@ -20,7 +20,7 @@ const { content } = useLocale()
         <p class="education__univ" v-html="entry.institution"></p>
         <p v-if="entry.institution2" class="education__univ" v-html="entry.institution2"></p>
         <p v-if="entry.support" class="education__support">
-          {{ content.supportedByLabel }}
+          {{ entry.supportLabel ?? content.supportedByLabel }}
           <a :href="entry.supportUrl" target="_blank" rel="noopener">{{ entry.support }}</a>
         </p>
       </div>
