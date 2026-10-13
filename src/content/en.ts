@@ -40,7 +40,7 @@ const en: SiteContent = {
     affiliations: [
       { name: 'The University of Tokyo', role: 'Ph.D.', period: "'25–", logoKey: 'utokyo' },
       { name: 'Carnegie Mellon University', role: 'Ph.D. (Co-Advised)', period: "'25–", logoKey: 'cmu' },
-      { name: 'JSPS', role: 'Research Fellow (DC2)', logoKey: 'jsps' },
+      { name: 'JSPS', role: 'Research Fellow (DC2)', period: "'26–", logoKey: 'jsps' },
       { name: 'Microsoft Research Asia', role: 'Research Intern', period: "'24–'25", logoKey: 'microsoft' },
       { name: 'Sony R&D', role: 'Research Intern', period: "'23", logoKey: 'sony' },
     ],

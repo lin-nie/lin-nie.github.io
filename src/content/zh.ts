@@ -37,7 +37,7 @@ const zh: SiteContent = {
     affiliations: [
       { name: '东京大学', role: '博士', period: '2025–至今', logoKey: 'utokyo' },
       { name: '卡内基梅隆大学', role: '博士（共同指导）', period: '2025–至今', logoKey: 'cmu' },
-      { name: 'JSPS', role: '特别研究员（DC2）', logoKey: 'jsps' },
+      { name: 'JSPS', role: '特别研究员（DC2）', period: '2026–至今', logoKey: 'jsps' },
       { name: '微软亚洲研究院', role: '研究实习', period: '2024–2025', logoKey: 'microsoft' },
       { name: '索尼 R&D', role: '研究实习', period: '2023', logoKey: 'sony' },
     ],

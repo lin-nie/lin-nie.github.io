@@ -40,7 +40,7 @@ const jp: SiteContent = {
     affiliations: [
       { name: '東京大学', role: '博士', period: '2025–現在', logoKey: 'utokyo' },
       { name: 'カーネギーメロン大学', role: '博士課程（共同指導）', period: '2025–現在', logoKey: 'cmu' },
-      { name: 'JSPS', role: '特別研究員（DC2）', logoKey: 'jsps' },
+      { name: 'JSPS', role: '特別研究員（DC2）', period: '2026–現在', logoKey: 'jsps' },
       { name: 'マイクロソフトリサーチアジア', role: '研究インターン', period: '2024–2025', logoKey: 'microsoft' },
       { name: 'ソニー R&D', role: '研究インターン', period: '2023', logoKey: 'sony' },
     ],
