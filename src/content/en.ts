@@ -38,7 +38,7 @@ const en: SiteContent = {
       web: 'lin-nie.github.io',
     },
     affiliations: [
-      { name: 'The University of Tokyo', role: "M.S. '23–'25, Ph.D. '25–", logoKey: 'utokyo' },
+      { name: 'The University of Tokyo', role: "Ph.D. '25–", logoKey: 'utokyo' },
       { name: 'Carnegie Mellon University', role: "Ph.D. (Co-Advised), '25–", logoKey: 'cmu' },
       { name: 'JSPS', role: 'Research Fellow (DC2)', logoKey: 'jsps' },
       { name: 'Microsoft Research Asia', role: "Research Intern '24–'25", logoKey: 'microsoft' },
@@ -160,7 +160,7 @@ const en: SiteContent = {
   andWord: 'and',
   education: [
     {
-      period: '2025.4 – Now',
+      period: '2025 – Now',
       degree: 'UTokyo × CMU',
       mentor: 'Yoichi Sato',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
@@ -178,7 +178,7 @@ const en: SiteContent = {
       support2Url: 'https://www.jst.go.jp/aspire/en/index.html',
     },
     {
-      period: '2024.6 – 2025.5',
+      period: '2024 – 2025',
       degree: 'Research Intern',
       mentorLabel: 'Supervised by Dr.',
       mentor: 'Dongsheng Li',
@@ -191,7 +191,7 @@ const en: SiteContent = {
       supportUrl: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
     },
     {
-      period: '2023.8 – 2023.10',
+      period: '2023',
       degree: 'Research Intern',
       mentorLabel: 'Supervised by Dr.',
       mentor: 'Takeshi Ohashi',
@@ -201,7 +201,7 @@ const en: SiteContent = {
         'Image Recognition Section, Foundation AI Lab, <a href="https://www.sony.com/en/SonyInfo/technology/about/" target="_blank" rel="noopener">Sony Group Corporation R&amp;D</a> (Tokyo)',
     },
     {
-      period: '2023.4 – 2025.3',
+      period: '2023 – 2025',
       degree: 'UTokyo',
       mentor: 'Yoichi Sato',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',

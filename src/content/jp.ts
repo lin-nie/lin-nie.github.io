@@ -38,7 +38,7 @@ const jp: SiteContent = {
       web: 'lin-nie.github.io',
     },
     affiliations: [
-      { name: '東京大学', role: '修士 2023–2025、博士 2025–現在', logoKey: 'utokyo' },
+      { name: '東京大学', role: '博士 2025–現在', logoKey: 'utokyo' },
       { name: 'カーネギーメロン大学', role: '博士課程（共同指導）2025–現在', logoKey: 'cmu' },
       { name: 'JSPS', role: '特別研究員（DC2）', logoKey: 'jsps' },
       { name: 'マイクロソフトリサーチアジア', role: '研究インターン 2024–2025', logoKey: 'microsoft' },
@@ -160,7 +160,7 @@ const jp: SiteContent = {
   andWord: 'と',
   education: [
     {
-      period: '2025.4 – 現在',
+      period: '2025 – 現在',
       degree: 'UTokyo × CMU',
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
@@ -178,7 +178,7 @@ const jp: SiteContent = {
       support2Url: 'https://www.jst.go.jp/aspire/en/index.html',
     },
     {
-      period: '2024.6 – 2025.5',
+      period: '2024 – 2025',
       degree: '研究インターン',
       mentorLabel: 'メンター：',
       mentor: '李 東勝 博士',
@@ -191,7 +191,7 @@ const jp: SiteContent = {
       supportUrl: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
     },
     {
-      period: '2023.8 – 2023.10',
+      period: '2023',
       degree: '研究インターン',
       mentorLabel: 'メンター：',
       mentor: '大橋 健史 博士',
@@ -201,7 +201,7 @@ const jp: SiteContent = {
         '<a href="https://www.sony.com/en/SonyInfo/technology/about/" target="_blank" rel="noopener">ソニーグループ株式会社 R&amp;D</a>、Foundation AI Lab、Image Recognition Section（東京）',
     },
     {
-      period: '2023.4 – 2025.3',
+      period: '2023 – 2025',
       degree: 'UTokyo',
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',

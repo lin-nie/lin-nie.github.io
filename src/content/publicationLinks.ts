@@ -41,7 +41,7 @@ export const publicationLinks: PublicationLinks[] = [
     image: pub7,
     isNew: true,
     paper: 'https://arxiv.org/abs/2506.01353',
-    project: 'https://lin-nie.github.io/',
+    project: 'https://lin-nie.github.io/EgoBrain/',
     dataset: 'https://huggingface.co/datasets/ut-vision/EgoBrain',
     extraLinks: [{ label: 'EgoBrain-Mini', url: 'https://huggingface.co/datasets/ut-vision/EgoBrain-Mini' }],
     openreview: 'https://openreview.net/forum?id=DGcoJINQ7P',

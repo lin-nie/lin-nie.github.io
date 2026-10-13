@@ -35,7 +35,7 @@ const zh: SiteContent = {
       web: 'lin-nie.github.io',
     },
     affiliations: [
-      { name: '东京大学', role: '硕士 2023–2025，博士 2025–至今', logoKey: 'utokyo' },
+      { name: '东京大学', role: '博士 2025–至今', logoKey: 'utokyo' },
       { name: '卡内基梅隆大学', role: '博士（共同指导）2025–至今', logoKey: 'cmu' },
       { name: 'JSPS', role: '特别研究员（DC2）', logoKey: 'jsps' },
       { name: '微软亚洲研究院', role: '研究实习 2024–2025', logoKey: 'microsoft' },
@@ -157,7 +157,7 @@ const zh: SiteContent = {
   andWord: '和',
   education: [
     {
-      period: '2025.4 – 至今',
+      period: '2025 – 至今',
       degree: 'UTokyo × CMU',
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
@@ -175,7 +175,7 @@ const zh: SiteContent = {
       support2Url: 'https://www.jst.go.jp/aspire/en/index.html',
     },
     {
-      period: '2024.6 – 2025.5',
+      period: '2024 – 2025',
       degree: '研究实习生',
       mentorLabel: '导师：',
       mentor: '李东胜 博士',
@@ -188,7 +188,7 @@ const zh: SiteContent = {
       supportUrl: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
     },
     {
-      period: '2023.8 – 2023.10',
+      period: '2023',
       degree: '研究实习生',
       mentorLabel: '导师：',
       mentor: '大桥健史 博士',
@@ -198,7 +198,7 @@ const zh: SiteContent = {
         '图像识别组，基础 AI 实验室，<a href="https://www.sony.com/en/SonyInfo/technology/about/" target="_blank" rel="noopener">索尼集团 R&amp;D</a>（东京）',
     },
     {
-      period: '2023.4 – 2025.3',
+      period: '2023 – 2025',
       degree: 'UTokyo',
       mentor: '佐藤 洋一',
       mentorUrl: 'https://sites.google.com/ut-vision.org/ysato/',
