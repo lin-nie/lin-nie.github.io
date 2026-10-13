@@ -35,11 +35,11 @@ const zh: SiteContent = {
       web: 'lin-nie.github.io',
     },
     affiliations: [
-      { name: '东京大学', role: '博士 2025–至今', logoKey: 'utokyo' },
-      { name: '卡内基梅隆大学', role: '博士（共同指导）2025–至今', logoKey: 'cmu' },
+      { name: '东京大学', role: '博士', period: '2025–至今', logoKey: 'utokyo' },
+      { name: '卡内基梅隆大学', role: '博士（共同指导）', period: '2025–至今', logoKey: 'cmu' },
       { name: 'JSPS', role: '特别研究员（DC2）', logoKey: 'jsps' },
-      { name: '微软亚洲研究院', role: '研究实习 2024–2025', logoKey: 'microsoft' },
-      { name: '索尼 R&D', role: '研究实习 2023', logoKey: 'sony' },
+      { name: '微软亚洲研究院', role: '研究实习', period: '2024–2025', logoKey: 'microsoft' },
+      { name: '索尼 R&D', role: '研究实习', period: '2023', logoKey: 'sony' },
     ],
     cvNote: '我的简历可以从<a href="#" target="_blank" rel="noopener">这里</a>下载。',
     internshipNote:

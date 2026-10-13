@@ -1,6 +1,7 @@
 export interface AffiliationItem {
   name: string
   role: string
+  period?: string
   logoKey: string
 }
 

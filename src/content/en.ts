@@ -38,11 +38,11 @@ const en: SiteContent = {
       web: 'lin-nie.github.io',
     },
     affiliations: [
-      { name: 'The University of Tokyo', role: "Ph.D. '25–", logoKey: 'utokyo' },
-      { name: 'Carnegie Mellon University', role: "Ph.D. (Co-Advised), '25–", logoKey: 'cmu' },
+      { name: 'The University of Tokyo', role: 'Ph.D.', period: "'25–", logoKey: 'utokyo' },
+      { name: 'Carnegie Mellon University', role: 'Ph.D. (Co-Advised)', period: "'25–", logoKey: 'cmu' },
       { name: 'JSPS', role: 'Research Fellow (DC2)', logoKey: 'jsps' },
-      { name: 'Microsoft Research Asia', role: "Research Intern '24–'25", logoKey: 'microsoft' },
-      { name: 'Sony R&D', role: "Research Intern '23", logoKey: 'sony' },
+      { name: 'Microsoft Research Asia', role: 'Research Intern', period: "'24–'25", logoKey: 'microsoft' },
+      { name: 'Sony R&D', role: 'Research Intern', period: "'23", logoKey: 'sony' },
     ],
     cvNote: 'My CV can be downloaded from <a href="#" target="_blank" rel="noopener">here</a>.',
     internshipNote:

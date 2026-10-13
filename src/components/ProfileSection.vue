@@ -66,7 +66,7 @@ const showEasterEgg = ref(false)
             :style="{ '--logo-scale': affiliationLogoScale[a.logoKey] ?? 1 }"
           />
         </div>
-        <span class="profile__affiliation-role">{{ a.role }}</span>
+        <span class="profile__affiliation-role">{{ a.role }}<template v-if="a.period"><br />{{ a.period }}</template></span>
       </div>
     </div>
 
