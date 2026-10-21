@@ -23,6 +23,7 @@ export interface PublicationLinks {
   video?: string
   openreview?: string
   dataset?: string
+  poster?: string
   venueIcon?: string
   extraLinks?: { label: string; url: string }[]
 }
@@ -45,6 +46,7 @@ export const publicationLinks: PublicationLinks[] = [
     dataset: 'https://huggingface.co/datasets/ut-vision/EgoBrain',
     extraLinks: [{ label: 'EgoBrain-Mini', url: 'https://huggingface.co/datasets/ut-vision/EgoBrain-Mini' }],
     openreview: 'https://openreview.net/forum?id=DGcoJINQ7P',
+    poster: 'https://iclr.cc/media/PosterPDFs/ICLR%202026/10010793.png?t=1774599605.7593396',
     venueIcon: iclrIcon,
   },
   {
@@ -54,6 +56,7 @@ export const publicationLinks: PublicationLinks[] = [
     openreview: 'https://openreview.net/forum?id=96jZFqM5E0',
     project: 'https://tkhkaeio.github.io/projects/25-simhand/index.html',
     code: 'https://github.com/ut-vision/SiMHand',
+    poster: 'https://iclr.cc/media/PosterPDFs/ICLR%202025/30721.png?t=1743670691.9962842',
     venueIcon: iclrIcon,
   },
   {

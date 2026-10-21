@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import { useLocale } from '../content'
+import { newsPhotos } from '../content/newsPhotos'
 
 const { content } = useLocale()
 
@@ -10,6 +11,12 @@ const expanded = ref(false)
 const visibleNews = computed(() =>
   expanded.value ? content.value.news : content.value.news.slice(0, collapsedCount)
 )
+
+// Photos stay collapsed until the reader asks for them, keeping the list compact.
+const openPhotos = ref<Record<number, boolean>>({})
+const togglePhoto = (i: number) => {
+  openPhotos.value[i] = !openPhotos.value[i]
+}
 </script>
 
 <template>
@@ -18,7 +25,21 @@ const visibleNews = computed(() =>
     <ul class="news__list">
       <li v-for="(item, i) in visibleNews" :key="i" class="news__item">
         <span class="news__date">{{ item.date }}</span>
-        <span class="news__body" v-html="item.html"></span>
+        <div class="news__body">
+          <span v-html="item.html"></span>
+          <button
+            v-if="item.photo"
+            class="news__photo-toggle"
+            type="button"
+            :aria-expanded="!!openPhotos[i]"
+            @click="togglePhoto(i)"
+          >
+            📷 {{ openPhotos[i] ? content.newsPhotoHide : content.newsPhotoShow }}
+          </button>
+          <a v-if="item.photo && openPhotos[i]" class="news__photo-link" :href="newsPhotos[item.photo]" target="_blank" rel="noopener">
+            <img class="news__photo" :src="newsPhotos[item.photo]" :alt="item.photoAlt ?? ''" loading="lazy" />
+          </a>
+        </div>
       </li>
     </ul>
     <button
@@ -67,6 +88,32 @@ const visibleNews = computed(() =>
 
 .news__body {
   flex: 1;
+}
+
+.news__photo-toggle {
+  margin-left: 0.4em;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.85em;
+  color: var(--color-link);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.news__photo-link {
+  display: block;
+  width: fit-content;
+  margin-top: 0.5rem;
+}
+
+.news__photo {
+  display: block;
+  height: 10rem;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 .news__toggle {

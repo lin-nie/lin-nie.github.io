@@ -327,14 +327,18 @@ const showEasterEgg = ref(false)
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 8.75rem;
+  /* Share one row on desktop; wrap to rows of three on phones. */
+  flex: 1 1 0;
+  min-width: 6.5rem;
+  max-width: 8.75rem;
 }
 
 .profile__affiliation-logo-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 7.25rem;
+  width: 100%;
+  max-width: 7.25rem;
   height: 3.625rem;
   margin-bottom: 0.5rem;
 }
@@ -349,6 +353,8 @@ const showEasterEgg = ref(false)
 
 .profile__affiliation-role {
   font-size: 0.7rem;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
   color: var(--color-text-muted);
 }
 

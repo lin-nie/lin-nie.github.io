@@ -38,12 +38,13 @@ const zh: SiteContent = {
       { name: '东京大学', role: '博士', period: '2025–至今', logoKey: 'utokyo' },
       { name: '卡内基梅隆大学', role: '博士（共同指导）', period: '2025–至今', logoKey: 'cmu' },
       { name: 'JSPS', role: '特别研究员（DC2）', period: '2026–至今', logoKey: 'jsps' },
+      { name: '亚马逊机器人（Amazon Robotics）', role: '机器人项目负责人', period: '2026–至今', logoKey: 'amazon' },
       { name: '微软亚洲研究院', role: '研究实习', period: '2024–2025', logoKey: 'microsoft' },
       { name: '索尼 R&D', role: '研究实习', period: '2023', logoKey: 'sony' },
     ],
     cvNote: '我的简历可以从<a href="#" target="_blank" rel="noopener">这里</a>下载。',
     internshipNote:
-      '我正在积极寻找 2027 年 Research Scientist 暑期实习机会<br />——不限工作地点，欢迎<a href="mailto:nielin@iis.u-tokyo.ac.jp">联系我</a>！',
+      '我正在积极寻找 2027 年 Research Scientist 暑期实习机会<br />——不限工作地点，欢迎<a href="mailto:nielin@iis.u-tokyo.ac.jp">联系我</a>！<br />我将参加 <a href="https://www.corl.org/">CoRL 2026</a>（11月9–12日，奥斯汀），欢迎线下交流，请直接<a href="mailto:nielin@iis.u-tokyo.ac.jp">邮件联系我</a>！',
     socialHints: {
       github: '看看我的代码',
       scholar: '了解我',
@@ -55,7 +56,13 @@ const zh: SiteContent = {
   navNews: '消息',
   newsShowAll: '查看全部',
   newsShowLess: '收起',
+  newsPhotoShow: '照片',
+  newsPhotoHide: '收起照片',
   news: [
+  { date: "2026.10", html: "我将参加 <a href=\"https://www.corl.org/\">2026 年机器人学习大会（CoRL 2026）</a>（11月9日–12日）——德克萨斯州奥斯汀见！" },
+  { date: "2026.10", html: "荣获 <a href=\"https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home\">UTokyo-IIS Research Collaboration Initiative Award 2026</a>！该奖表彰积极开展产学研、地区及国际合作研究的研究生，每年度东京大学只评选 5 人。", photo: "iisAward", photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 海报" },
+  { date: "2026.10", html: "<a href=\"https://2026.ieee-iros.org/\">IROS 2026</a> 期间，我们实验室在 CMU 机器人设施参观活动中向参会者展示了亚马逊机器人，相关报道见 <a href=\"https://www.cmu.edu/news/stories/archives/2026/october/cmu-robotics-expertise-and-facilities-attract-iros-2026-conference-attendees\">CMU News</a> 和 <a href=\"https://www.linkedin.com/posts/cmu-ri_iros2026-iros2026-activity-7516229059706560512-dhmF/\">CMU RI 的 LinkedIn</a>！", photo: "irosSprout", photoAlt: "IROS 2026 CMU 设施参观中的亚马逊机器人" },
+  { date: "2026.10", html: "和 CMU 社区一起庆祝 Ken Griffin 向卡内基梅隆大学捐赠历史性的 30 亿美元，还和他自拍了一张！详见 <a href=\"https://www.cmu.edu/news/stories/archives/2026/october/cmu-community-celebrates-transformational-3b-gift\">CMU News</a> 和我的 <a href=\"https://www.linkedin.com/posts/nie-lin_carnegiemellon-cmu-robotics-ugcPost-7513271201990041601-kdEp/\">LinkedIn 动态</a>。", photo: "cmuGift", photoAlt: "在 CMU 捐赠庆祝活动上与 Ken Griffin 自拍" },
   { date: "2026.09", html: "好消息！我将出席 <a href=\"https://2026.ieee-iros.org/\">IROS 2026</a>——匹兹堡见。" },
   { date: "2026.08", html: "在第七届 <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7498943727135150080/\">CMU Robot Learning Workshop</a> 上度过了愉快的一天，我做了一个关于 SiMDex 的闪电演讲——感谢 <a href=\"https://www.ri.cmu.edu/ri-faculty/david-held/\">David Held</a> 教授和 Madhavan Iyengar 的组织！" },
   { date: "2026.08", html: "开启在<a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">匹兹堡</a>的新旅程，我进入<a href=\"https://www.cmu.edu/\">卡内基梅隆大学</a><a href=\"https://www.ri.cmu.edu/\">机器人研究所（Robotics Institute）</a>，跟随 <a href=\"https://kriskitani.github.io/\">Kris Kitani</a> 教授学习。这座三河交汇、昔日钢铁之城⚙️如今跳动着机器人🤖脉搏的城市，感觉正是为世界未来筑梦的绝佳之地。" },
@@ -91,6 +98,7 @@ const zh: SiteContent = {
   videoLabel: '视频',
   openreviewLabel: 'Openreview',
   datasetLabel: '数据集',
+  posterLabel: '海报',
   comingSoonLabel: '即将上线',
   publications: [
     {

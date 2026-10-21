@@ -25,6 +25,7 @@ const linksFor = (i: number) => {
   if (pl.openreview) entries.push({ label: content.value.openreviewLabel, url: pl.openreview })
   if (pl.dataset) entries.push({ label: content.value.datasetLabel, url: pl.dataset })
   if (pl.extraLinks) entries.push(...pl.extraLinks)
+  if (pl.poster) entries.push({ label: content.value.posterLabel, url: pl.poster })
   return entries
 }
 

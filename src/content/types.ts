@@ -40,6 +40,8 @@ export interface ProfileContent {
 export interface NewsItem {
   date: string
   html: string
+  photo?: string
+  photoAlt?: string
 }
 
 export interface PublicationItem {
@@ -84,6 +86,8 @@ export interface SiteContent {
   news: NewsItem[]
   newsShowAll: string
   newsShowLess: string
+  newsPhotoShow: string
+  newsPhotoHide: string
 
   publicationsTitle: string
   navPublications: string
@@ -94,6 +98,7 @@ export interface SiteContent {
   videoLabel: string
   openreviewLabel: string
   datasetLabel: string
+  posterLabel: string
   comingSoonLabel: string
 
   educationTitle: string

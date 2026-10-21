@@ -41,12 +41,13 @@ const jp: SiteContent = {
       { name: '東京大学', role: '博士', period: '2025–現在', logoKey: 'utokyo' },
       { name: 'カーネギーメロン大学', role: '博士課程（共同指導）', period: '2025–現在', logoKey: 'cmu' },
       { name: 'JSPS', role: '特別研究員（DC2）', period: '2026–現在', logoKey: 'jsps' },
+      { name: 'Amazon Robotics', role: 'ロボティクス プロジェクトリーダー', period: '2026–現在', logoKey: 'amazon' },
       { name: 'マイクロソフトリサーチアジア', role: '研究インターン', period: '2024–2025', logoKey: 'microsoft' },
       { name: 'ソニー R&D', role: '研究インターン', period: '2023', logoKey: 'sony' },
     ],
     cvNote: '私の履歴書は<a href="#" target="_blank" rel="noopener">こちら</a>からダウンロードできます。',
     internshipNote:
-      '2027年のResearch Scientist夏季インターンシップを積極的に探しています<br />——勤務地は問いません、お気軽に<a href="mailto:nielin@iis.u-tokyo.ac.jp">ご連絡ください</a>！',
+      '2027年のResearch Scientist夏季インターンシップを積極的に探しています<br />——勤務地は問いません、お気軽に<a href="mailto:nielin@iis.u-tokyo.ac.jp">ご連絡ください</a>！<br /><a href="https://www.corl.org/">CoRL 2026</a>（11月9〜12日、オースティン）に参加します<br />——現地でお会いしたい方は、<a href="mailto:nielin@iis.u-tokyo.ac.jp">メール</a>でご連絡ください！',
     socialHints: {
       github: '私のコードを見る',
       scholar: '私を知る',
@@ -58,7 +59,13 @@ const jp: SiteContent = {
   navNews: 'ニュース',
   newsShowAll: 'すべて表示',
   newsShowLess: '折りたたむ',
+  newsPhotoShow: '写真',
+  newsPhotoHide: '写真を閉じる',
   news: [
+  { date: "2026.10", html: "<a href=\"https://www.corl.org/\">2026 Conference on Robot Learning（CoRL 2026）</a>（11月9日〜12日）に参加します。テキサス州オースティンでお会いしましょう！" },
+  { date: "2026.10", html: "<a href=\"https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home\">UTokyo-IIS Research Collaboration Initiative Award 2026</a> を受賞しました！産官学・地域・国際連携研究活動に意欲的に取り組む大学院生を対象とした賞で、東京大学で毎年度 5 名のみ選出されます。", photo: "iisAward", photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 のポスター" },
+  { date: "2026.10", html: "<a href=\"https://2026.ieee-iros.org/\">IROS 2026</a> の期間中、CMU のロボット施設見学ツアーで、研究室として Amazon のロボットを参加者に紹介しました。<a href=\"https://www.cmu.edu/news/stories/archives/2026/october/cmu-robotics-expertise-and-facilities-attract-iros-2026-conference-attendees\">CMU News</a> と <a href=\"https://www.linkedin.com/posts/cmu-ri_iros2026-iros2026-activity-7516229059706560512-dhmF/\">CMU RI の LinkedIn</a> でも紹介されています！", photo: "irosSprout", photoAlt: "IROS 2026 の CMU 施設見学で展示された Amazon のロボット" },
+  { date: "2026.10", html: "Ken Griffin 氏による CMU への歴史的な 30 億ドルの寄付を CMU コミュニティの皆さんとお祝いし、一緒にセルフィーも撮りました！<a href=\"https://www.cmu.edu/news/stories/archives/2026/october/cmu-community-celebrates-transformational-3b-gift\">CMU News</a> と <a href=\"https://www.linkedin.com/posts/nie-lin_carnegiemellon-cmu-robotics-ugcPost-7513271201990041601-kdEp/\">LinkedIn の投稿</a>もぜひご覧ください。", photo: "cmuGift", photoAlt: "CMU の寄付記念イベントでの Ken Griffin 氏とのセルフィー" },
   { date: "2026.09", html: "朗報です！<a href=\"https://2026.ieee-iros.org/\">IROS 2026</a>に参加します——ピッツバーグでお会いしましょう。" },
   { date: "2026.08", html: "第7回<a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7498943727135150080/\">CMU Robot Learning Workshop</a>で素敵な時間を過ごしました。SiMDexについてライトニングトークを行いました——<a href=\"https://www.ri.cmu.edu/ri-faculty/david-held/\">David Held</a>教授とMadhavan Iyengarさんの企画に感謝します！" },
   { date: "2026.08", html: "<a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">ピッツバーグ</a>で新たな一歩を踏み出し、<a href=\"https://www.cmu.edu/\">カーネギーメロン大学</a><a href=\"https://www.ri.cmu.edu/\">ロボティクス研究所</a>にて<a href=\"https://kriskitani.github.io/\">Kris Kitani</a>教授のご指導のもと研究をスタートしました。三本の川が交わり、かつての鉄鋼の街⚙️がいまロボティクス🤖の鼓動を刻むこの場所は、世界の未来を築くのにふさわしい地だと感じています。" },
@@ -94,6 +101,7 @@ const jp: SiteContent = {
   videoLabel: 'ビデオ',
   openreviewLabel: 'Openreview',
   datasetLabel: 'データセット',
+  posterLabel: 'ポスター',
   comingSoonLabel: '近日公開',
   publications: [
     {

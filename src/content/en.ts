@@ -41,12 +41,13 @@ const en: SiteContent = {
       { name: 'The University of Tokyo', role: 'Ph.D.', period: "'25–", logoKey: 'utokyo' },
       { name: 'Carnegie Mellon University', role: 'Ph.D. (Co-Advised)', period: "'25–", logoKey: 'cmu' },
       { name: 'JSPS', role: 'Research Fellow (DC2)', period: "'26–", logoKey: 'jsps' },
+      { name: 'Amazon Robotics', role: 'Robotics Project Leader', period: "'26–", logoKey: 'amazon' },
       { name: 'Microsoft Research Asia', role: 'Research Intern', period: "'24–'25", logoKey: 'microsoft' },
       { name: 'Sony R&D', role: 'Research Intern', period: "'23", logoKey: 'sony' },
     ],
     cvNote: 'My CV can be downloaded from <a href="#" target="_blank" rel="noopener">here</a>.',
     internshipNote:
-      'I am actively looking for a summer internship as a Research Scientist in 2027<br />— open to any location, feel free to <a href="mailto:nielin@iis.u-tokyo.ac.jp">reach&nbsp;out</a>!',
+      'I am actively looking for a summer internship as a Research Scientist in 2027<br />— open to any location, feel free to <a href="mailto:nielin@iis.u-tokyo.ac.jp">reach&nbsp;out</a>!<br />I’ll be at <a href="https://www.corl.org/">CoRL 2026</a> in Austin (Nov. 9–12) — <a href="mailto:nielin@iis.u-tokyo.ac.jp">email&nbsp;me</a> to meet up in person!',
     socialHints: {
       github: 'See my code',
       scholar: 'Know me',
@@ -58,7 +59,13 @@ const en: SiteContent = {
   navNews: 'News',
   newsShowAll: 'Show all',
   newsShowLess: 'Show less',
+  newsPhotoShow: 'Photo',
+  newsPhotoHide: 'Hide photo',
   news: [
+  { date: "2026.10", html: "I will be attending the <a href=\"https://www.corl.org/\">2026 Conference on Robot Learning (CoRL 2026)</a>, Nov. 9–12 — see you in Austin, Texas!" },
+  { date: "2026.10", html: "Honored to receive the <a href=\"https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home\">UTokyo-IIS Research Collaboration Initiative Award 2026</a>, which recognizes graduate students actively engaged in industry–academia, regional, and international research collaboration — only five awardees are selected across the University of Tokyo each year!", photo: "iisAward", photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 poster" },
+  { date: "2026.10", html: "During <a href=\"https://2026.ieee-iros.org/\">IROS 2026</a>, our lab showcased an Amazon robot to attendees touring CMU's robotics facilities — featured in <a href=\"https://www.cmu.edu/news/stories/archives/2026/october/cmu-robotics-expertise-and-facilities-attract-iros-2026-conference-attendees\">CMU News</a> and on <a href=\"https://www.linkedin.com/posts/cmu-ri_iros2026-iros2026-activity-7516229059706560512-dhmF/\">CMU RI’s LinkedIn</a>!", photo: "irosSprout", photoAlt: "An Amazon robot at the IROS 2026 CMU facility tours" },
+  { date: "2026.10", html: "Joined the CMU community to celebrate Ken Griffin's historic $3 billion gift to Carnegie Mellon — and got a selfie with him! See <a href=\"https://www.cmu.edu/news/stories/archives/2026/october/cmu-community-celebrates-transformational-3b-gift\">CMU News</a> and my <a href=\"https://www.linkedin.com/posts/nie-lin_carnegiemellon-cmu-robotics-ugcPost-7513271201990041601-kdEp/\">LinkedIn post</a>.", photo: "cmuGift", photoAlt: "Selfie with Ken Griffin at CMU's $3B gift celebration" },
   { date: "2026.09", html: "Good News! I will be attending <a href=\"https://2026.ieee-iros.org/\">IROS 2026</a> — see you in Pittsburgh." },
   { date: "2026.08", html: "Had a great time at the <a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7498943727135150080/\">7th CMU Robot Learning Workshop</a>, where I gave a lightning talk on SiMDex — thanks to Prof. <a href=\"https://www.ri.cmu.edu/ri-faculty/david-held/\">David Held</a> and Madhavan Iyengar for organizing!" },
   { date: "2026.08", html: "Starting my journey in <a href=\"https://en.wikipedia.org/wiki/Pittsburgh\">Pittsburgh</a>, I've begun my studies at the <a href=\"https://www.ri.cmu.edu/\">Robotics Institute</a>, <a href=\"https://www.cmu.edu/\">Carnegie Mellon University</a>, under the supervision of Prof. <a href=\"https://kriskitani.github.io/\">Kris Kitani</a>. Here, where three rivers meet and the old steel city ⚙️ now beats with the pulse of robotics 🤖, feels like exactly the right place to build the world's future." },
@@ -94,6 +101,7 @@ const en: SiteContent = {
   videoLabel: 'Video',
   openreviewLabel: 'OpenReview',
   datasetLabel: 'Dataset',
+  posterLabel: 'Poster',
   comingSoonLabel: 'Coming Soon',
   publications: [
     {
