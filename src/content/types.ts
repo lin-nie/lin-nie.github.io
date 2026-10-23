@@ -86,8 +86,8 @@ export interface SiteContent {
   news: NewsItem[]
   newsShowAll: string
   newsShowLess: string
-  newsPhotoShow: string
-  newsPhotoHide: string
+  photoShowLabel: string
+  photoHideLabel: string
 
   publicationsTitle: string
   navPublications: string
@@ -114,7 +114,7 @@ export interface SiteContent {
   scholarshipLabel: string
   scholarships: ScholarshipEntry[]
   awardsLabel: string
-  awards: { text: string; url?: string }[]
+  awards: { text: string; url?: string; photo?: string; photoAlt?: string }[]
 
   fundTitle: string
   navFund: string

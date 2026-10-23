@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { useLocale } from '../content'
+import { photos } from '../content/photos'
+import CollapsiblePhoto from './CollapsiblePhoto.vue'
 
 const { content } = useLocale()
 </script>
@@ -23,6 +25,7 @@ const { content } = useLocale()
       <li v-for="a in content.awards" :key="a.text">
         <a v-if="a.url" :href="a.url" target="_blank" rel="noopener">{{ a.text }}</a>
         <template v-else>{{ a.text }}</template>
+        <CollapsiblePhoto v-if="a.photo" :src="photos[a.photo]" :alt="a.photoAlt" />
       </li>
     </ul>
   </section>

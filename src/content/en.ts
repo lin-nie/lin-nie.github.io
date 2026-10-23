@@ -59,8 +59,8 @@ const en: SiteContent = {
   navNews: 'News',
   newsShowAll: 'Show all',
   newsShowLess: 'Show less',
-  newsPhotoShow: 'Photo',
-  newsPhotoHide: 'Hide photo',
+  photoShowLabel: 'Photo',
+  photoHideLabel: 'Hide photo',
   news: [
   { date: "2026.10", html: "I will be attending the <a href=\"https://www.corl.org/\">2026 Conference on Robot Learning (CoRL 2026)</a>, Nov. 9–12 — see you in Austin, Texas!" },
   { date: "2026.10", html: "Honored to receive the <a href=\"https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home\">UTokyo-IIS Research Collaboration Initiative Award 2026</a>, which recognizes graduate students actively engaged in industry–academia, regional, and international research collaboration — only five awardees are selected across the University of Tokyo each year!", photo: "iisAward", photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 poster" },
@@ -253,8 +253,16 @@ const en: SiteContent = {
   awardsLabel: 'Awards',
   awards: [
     {
+      text: 'UTokyo-IIS Research Collaboration Initiative Award',
+      url: 'https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home',
+      photo: 'iisAward',
+      photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 poster",
+    },
+    {
       text: "'Stars of Tomorrow' Award at Microsoft Research Asia",
       url: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
+      photo: 'starsOfTomorrow',
+      photoAlt: "'Stars of Tomorrow' Award certificate from Microsoft Research Asia",
     },
     { text: "Outstanding Undergraduate's Thesis" },
   ],

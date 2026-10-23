@@ -56,8 +56,8 @@ const zh: SiteContent = {
   navNews: '消息',
   newsShowAll: '查看全部',
   newsShowLess: '收起',
-  newsPhotoShow: '照片',
-  newsPhotoHide: '收起照片',
+  photoShowLabel: '照片',
+  photoHideLabel: '收起照片',
   news: [
   { date: "2026.10", html: "我将参加 <a href=\"https://www.corl.org/\">2026 年机器人学习大会（CoRL 2026）</a>（11月9日–12日）——德克萨斯州奥斯汀见！" },
   { date: "2026.10", html: "荣获 <a href=\"https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home\">UTokyo-IIS Research Collaboration Initiative Award 2026</a>！该奖表彰积极开展产学研、地区及国际合作研究的研究生，每年度东京大学只评选 5 人。", photo: "iisAward", photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 海报" },
@@ -250,8 +250,16 @@ const zh: SiteContent = {
   awardsLabel: '奖励',
   awards: [
     {
+      text: 'UTokyo-IIS Research Collaboration Initiative Award',
+      url: 'https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home',
+      photo: 'iisAward',
+      photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 海报",
+    },
+    {
       text: '微软亚洲研究院 - 明日之星（Stars of Tomorrow）奖',
       url: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
+      photo: 'starsOfTomorrow',
+      photoAlt: "微软亚洲研究院明日之星（Stars of Tomorrow）奖证书",
     },
     { text: '优秀本科生论文' },
   ],

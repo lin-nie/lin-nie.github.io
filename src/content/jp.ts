@@ -59,8 +59,8 @@ const jp: SiteContent = {
   navNews: 'ニュース',
   newsShowAll: 'すべて表示',
   newsShowLess: '折りたたむ',
-  newsPhotoShow: '写真',
-  newsPhotoHide: '写真を閉じる',
+  photoShowLabel: '写真',
+  photoHideLabel: '写真を閉じる',
   news: [
   { date: "2026.10", html: "<a href=\"https://www.corl.org/\">2026 Conference on Robot Learning（CoRL 2026）</a>（11月9日〜12日）に参加します。テキサス州オースティンでお会いしましょう！" },
   { date: "2026.10", html: "<a href=\"https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home\">UTokyo-IIS Research Collaboration Initiative Award 2026</a> を受賞しました！産官学・地域・国際連携研究活動に意欲的に取り組む大学院生を対象とした賞で、東京大学で毎年度 5 名のみ選出されます。", photo: "iisAward", photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 のポスター" },
@@ -253,8 +253,16 @@ const jp: SiteContent = {
   awardsLabel: '受賞',
   awards: [
     {
+      text: 'UTokyo-IIS Research Collaboration Initiative Award',
+      url: 'https://sites.google.com/g.ecc.u-tokyo.ac.jp/2026-iis-award/home',
+      photo: 'iisAward',
+      photoAlt: "UTokyo-IIS Research Collaboration Initiative Award 2026 のポスター",
+    },
+    {
       text: 'マイクロソフトアジア研究院 - 明日の星（Stars of Tomorrow）賞',
       url: 'https://www.linkedin.com/posts/nie-lin_microsoftresearch-msra-starsoftomorrow-share-7348623898764115969-qQQJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADanPIUBOzRUiTiGYjfxReqR5Wk96pMfoKg',
+      photo: 'starsOfTomorrow',
+      photoAlt: "マイクロソフトアジア研究院 明日の星（Stars of Tomorrow）賞の賞状",
     },
     { text: '優秀な学部生の論文' },
   ],
